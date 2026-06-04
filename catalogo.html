@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo de Imóveis | Napoleão Viana</title>
+    <meta
+      name="description"
+      content="Catálogo de imóveis premium de Napoleão Viana em Alphaville, Barueri, Osasco, Butantã e Santana de Parnaíba."
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#inicio" aria-label="Napoleão Viana">
+        <span class="brand-mark">NV</span>
+        <span>
+          <strong>Napoleão Viana</strong>
+          <small>CRECI 228.582-F | Private Real Estate Advisor</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="catalogo.html">Imóveis</a>
+        <a href="index.html#vender">Proprietários</a>
+        <a href="index.html#depoimentos">Depoimentos</a>
+        <a href="index.html#regioes">Regiões</a>
+        <a href="index.html#blog">Blog</a>
+        <a href="index.html#videos">Vídeos</a>
+      </nav>
+      <a class="header-cta" href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Vim%20pelo%20catálogo%20e%20quero%20atendimento." target="_blank" rel="noreferrer">
+        Falar no WhatsApp
+      </a>
+    </header>
+
+    <main>
+      <section class="catalog-hero">
+        <div>
+          <p class="eyebrow">Catálogo premium</p>
+          <h1>Imóveis selecionados para compra, moradia e investimento.</h1>
+          <p>
+            Uma vitrine profissional para apresentar casas, apartamentos, coberturas e terrenos com curadoria, detalhes técnicos e contato direto pelo WhatsApp.
+          </p>
+        </div>
+      </section>
+
+      <section class="catalog-shell">
+        <aside class="filter-panel" aria-label="Filtros do catálogo">
+          <p class="filter-title">Filtros</p>
+          <label>
+            Região
+            <select id="regionFilter">
+              <option value="todos">Todas</option>
+              <option value="alphaville">Alphaville</option>
+              <option value="barueri">Barueri</option>
+              <option value="osasco">Osasco</option>
+              <option value="butanta">Butantã</option>
+              <option value="santana">Santana de Parnaíba</option>
+            </select>
+          </label>
+          <label>
+            Tipo
+            <select id="typeFilter">
+              <option value="todos">Todos</option>
+              <option value="casa">Casa</option>
+              <option value="apartamento">Apartamento</option>
+              <option value="cobertura">Cobertura</option>
+              <option value="terreno">Terreno</option>
+            </select>
+          </label>
+          <label>
+            Perfil
+            <select id="profileFilter">
+              <option value="todos">Todos</option>
+              <option value="morar">Para morar</option>
+              <option value="investir">Para investir</option>
+              <option value="familia">Família</option>
+            </select>
+          </label>
+          <a class="btn primary form-whatsapp" href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20receber%20uma%20curadoria%20de%20imóveis%20premium." target="_blank" rel="noreferrer">Receber curadoria</a>
+        </aside>
+
+        <section class="catalog-results" aria-label="Lista de imóveis">
+          <div class="catalog-toolbar">
+            <div>
+              <p class="section-kicker">Disponibilidade sob consulta</p>
+              <h2>Catálogo de imóveis</h2>
+            </div>
+            <span id="resultCount">7 imóveis</span>
+          </div>
+
+          <div class="catalog-grid">
+            <article class="catalog-card" data-region="alphaville" data-type="casa" data-profile="familia">
+              <div class="catalog-image image-1"><span class="tag">NV-001</span></div>
+              <div class="catalog-body">
+                <span>Alphaville | Casa</span>
+                <h3>Casa contemporânea em condomínio fechado</h3>
+                <p>Projeto elegante, área gourmet, lazer privativo e ambientes integrados para família.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>420 m²</dd></div>
+                  <div><dt>Suítes</dt><dd>4</dd></div>
+                  <div><dt>Vagas</dt><dd>4</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="imoveis/casa-contemporanea-alphaville.html">Ver detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-001." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="barueri" data-type="apartamento" data-profile="morar">
+              <div class="catalog-image image-2"><span class="tag">NV-002</span></div>
+              <div class="catalog-body">
+                <span>Barueri | Apartamento</span>
+                <h3>Apartamento premium com vista e planta inteligente</h3>
+                <p>Localização estratégica, acabamento superior e rotina prática perto de serviços.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>168 m²</dd></div>
+                  <div><dt>Suítes</dt><dd>3</dd></div>
+                  <div><dt>Vagas</dt><dd>3</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="imoveis/apartamento-premium-barueri.html">Ver detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-002." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="santana" data-type="casa" data-profile="familia">
+              <div class="catalog-image image-3"><span class="tag">NV-003</span></div>
+              <div class="catalog-body">
+                <span>Santana de Parnaíba | Casa</span>
+                <h3>Residência de alto padrão em região valorizada</h3>
+                <p>Privacidade, amplitude e qualidade de vida em uma região com excelente expansão.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>510 m²</dd></div>
+                  <div><dt>Suítes</dt><dd>4</dd></div>
+                  <div><dt>Vagas</dt><dd>5</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="imoveis/residencia-santana-de-parnaiba.html">Ver detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-003." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="butanta" data-type="cobertura" data-profile="morar">
+              <div class="catalog-image image-4"><span class="tag">NV-004</span></div>
+              <div class="catalog-body">
+                <span>Butantã | Cobertura</span>
+                <h3>Cobertura urbana com terraço e vista aberta</h3>
+                <p>Ideal para quem deseja mobilidade, conforto e uma área externa exclusiva.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>220 m²</dd></div>
+                  <div><dt>Suítes</dt><dd>3</dd></div>
+                  <div><dt>Vagas</dt><dd>3</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20detalhes%20do%20imóvel%20NV-004." target="_blank" rel="noreferrer">Solicitar detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-004." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="osasco" data-type="apartamento" data-profile="investir">
+              <div class="catalog-image image-5"><span class="tag">NV-005</span></div>
+              <div class="catalog-body">
+                <span>Osasco | Apartamento</span>
+                <h3>Apartamento para investimento em localização forte</h3>
+                <p>Produto com boa liquidez, demanda constante e acesso a polos comerciais.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>92 m²</dd></div>
+                  <div><dt>Dorms.</dt><dd>3</dd></div>
+                  <div><dt>Vagas</dt><dd>2</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20detalhes%20do%20imóvel%20NV-005." target="_blank" rel="noreferrer">Solicitar detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-005." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="santana" data-type="casa" data-profile="familia">
+              <div class="catalog-image image-7"><span class="tag">NV-007</span></div>
+              <div class="catalog-body">
+                <span>Santana de Parnaíba | Casa</span>
+                <h3>Casa tecnológica no Condomínio Santa Ana</h3>
+                <p>Arquitetura imponente, automação com Alexa, elevador, piscina com hidro e suíte master espetacular.</p>
+                <dl>
+                  <div><dt>Terreno</dt><dd>430 m²</dd></div>
+                  <div><dt>Construção</dt><dd>300 m²</dd></div>
+                  <div><dt>Suítes</dt><dd>3</dd></div>
+                  <div><dt>Valor</dt><dd>R$ 3.190.000</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="imoveis/casa-tecnologica-condominio-santa-ana.html">Ver detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-007%20no%20Condomínio%20Santa%20Ana." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="catalog-card" data-region="santana" data-type="terreno" data-profile="investir">
+              <div class="catalog-image image-6"><span class="tag">NV-006</span></div>
+              <div class="catalog-body">
+                <span>Santana de Parnaíba | Terreno</span>
+                <h3>Terreno em condomínio para projeto exclusivo</h3>
+                <p>Opção para construir sob medida em região de expansão e alto potencial.</p>
+                <dl>
+                  <div><dt>Área</dt><dd>640 m²</dd></div>
+                  <div><dt>Uso</dt><dd>Residencial</dd></div>
+                  <div><dt>Status</dt><dd>Condomínio</dd></div>
+                  <div><dt>Valor</dt><dd>Sob consulta</dd></div>
+                </dl>
+                <div class="catalog-actions">
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20detalhes%20do%20imóvel%20NV-006." target="_blank" rel="noreferrer">Solicitar detalhes</a>
+                  <a href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Quero%20saber%20mais%20sobre%20o%20imóvel%20NV-006." target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>Napoleão Viana</strong>
+      <span>CRECI 228.582-F</span>
+      <span>WhatsApp (11) 94818-7023</span>
+      <span>imobnapoleaoviana.com.br</span>
+      <span>Alphaville, Barueri, Osasco, Butantã e Santana de Parnaíba</span>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/5511948187023?text=Olá,%20Napoleão.%20Vim%20pelo%20catálogo." target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">
+      WhatsApp
+    </a>
+
+    <script>
+      const filters = ["regionFilter", "typeFilter", "profileFilter"].map((id) => document.getElementById(id));
+      const cards = Array.from(document.querySelectorAll(".catalog-card"));
+      const resultCount = document.getElementById("resultCount");
+
+      function applyFilters() {
+        const [region, type, profile] = filters.map((filter) => filter.value);
+        let visible = 0;
+
+        cards.forEach((card) => {
+          const matches =
+            (region === "todos" || card.dataset.region === region) &&
+            (type === "todos" || card.dataset.type === type) &&
+            (profile === "todos" || card.dataset.profile === profile);
+
+          card.hidden = !matches;
+          if (matches) visible += 1;
+        });
+
+        resultCount.textContent = visible === 1 ? "1 imóvel" : `${visible} imóveis`;
+      }
+
+      filters.forEach((filter) => filter.addEventListener("change", applyFilters));
+    </script>
+  </body>
+</html>
