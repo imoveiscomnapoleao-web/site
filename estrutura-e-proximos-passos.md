@@ -72,7 +72,7 @@
 
 Napoleão Viana
 
-Imóveis premium com curadoria pessoal.
+Imóveis de alto padrão com atendimento personalizado.
 
 Atendimento estratégico para comprar, vender ou avaliar imóveis de alto padrão com segurança, discrição e visão de mercado.
 
@@ -86,7 +86,7 @@ Antes de anunciar, seu imóvel precisa de estratégia: preço coerente, apresent
 
 ### Chamada para compradores
 
-Encontre o imóvel certo com uma curadoria feita por quem conhece Alphaville, Barueri, Osasco, Butantã e Santana de Parnaíba.
+Encontre o imóvel certo com atendimento feito por quem conhece Alphaville, Barueri, Osasco, Butantã e Santana de Parnaíba.
 
 ## Ideias de artigos para SEO
 
