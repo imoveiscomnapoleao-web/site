@@ -483,6 +483,10 @@ h2 {
   background-image: url("assets/casa-noah/fachada-frontal.jpeg");
 }
 
+.image-9 {
+  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1017,6 +1021,10 @@ dd {
   background-image: url("assets/casa-noah/fachada-frontal.jpeg");
 }
 
+.detail-image-9 {
+  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+}
+
 .santa-fachada-dia {
   background-image: url("assets/santa-ana/fachada-dia.jpeg");
 }
@@ -1123,6 +1131,54 @@ dd {
 
 .noah-living-madeira {
   background-image: url("assets/casa-noah/living-madeira.jpeg");
+}
+
+.taina-fachada {
+  background-image: url("assets/casa-taina-vila-jaguari/fachada.jpeg");
+}
+
+.taina-fachada-protegida {
+  background-image: url("assets/casa-taina-vila-jaguari/fachada-portao-protegida.jpeg");
+}
+
+.taina-gourmet-principal {
+  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+}
+
+.taina-gourmet-ampla {
+  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-ampla.jpeg");
+}
+
+.taina-cozinha {
+  background-image: url("assets/casa-taina-vila-jaguari/cozinha-integrada.jpeg");
+}
+
+.taina-sala-cozinha {
+  background-image: url("assets/casa-taina-vila-jaguari/sala-cozinha.jpeg");
+}
+
+.taina-escada {
+  background-image: url("assets/casa-taina-vila-jaguari/escada.jpeg");
+}
+
+.taina-suite-varanda {
+  background-image: url("assets/casa-taina-vila-jaguari/suite-varanda.jpeg");
+}
+
+.taina-dormitorio-ar {
+  background-image: url("assets/casa-taina-vila-jaguari/dormitorio-ar.jpeg");
+}
+
+.taina-banheiro {
+  background-image: url("assets/casa-taina-vila-jaguari/banheiro-superior.jpeg");
+}
+
+.taina-lavabo {
+  background-image: url("assets/casa-taina-vila-jaguari/lavabo.jpeg");
+}
+
+.taina-piscina-vista {
+  background-image: url("assets/casa-taina-vila-jaguari/piscina-vista-mata.jpeg");
 }
 
 .property-detail {
