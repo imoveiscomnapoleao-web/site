@@ -1235,6 +1235,37 @@ dd {
   margin-top: 0;
 }
 
+.property-video {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 20px;
+  align-items: center;
+  margin-top: 32px;
+  padding: 22px;
+  background: var(--navy-950);
+  border-radius: 8px;
+  color: var(--white);
+}
+
+.property-video h2 {
+  margin-top: 0;
+  color: var(--white);
+  font-size: 34px;
+  line-height: 1.08;
+}
+
+.property-video p:not(.section-kicker) {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.property-video video {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  background: var(--navy-950);
+  border-radius: 8px;
+}
+
 .detail-gallery div {
   min-height: 260px;
   border-radius: 8px;
@@ -1374,6 +1405,7 @@ dd {
   .detail-sidebar dl,
   .detail-gallery,
   .detail-gallery.expanded,
+  .property-video,
   .feature-list {
     grid-template-columns: 1fr;
   }
