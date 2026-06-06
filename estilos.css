@@ -227,6 +227,11 @@ a {
   letter-spacing: 0.8px;
 }
 
+.creci-line span {
+  display: block;
+  line-height: 1.45;
+}
+
 .hero-card ul {
   display: grid;
   gap: 10px;
