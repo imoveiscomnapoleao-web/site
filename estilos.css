@@ -403,6 +403,12 @@ h2 {
   margin-bottom: 34px;
 }
 
+.section-intro {
+  max-width: 680px;
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
 .section-link {
   color: var(--navy-800);
   font-weight: 850;
@@ -655,6 +661,53 @@ select {
   color: rgba(255, 255, 255, 0.74);
 }
 
+.contact-section {
+  background: var(--white);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.contact-grid article {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f5f9fc);
+  box-shadow: 0 18px 44px rgba(6, 23, 41, 0.07);
+}
+
+.contact-grid span {
+  display: block;
+  color: var(--blue-500);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact-grid strong {
+  display: block;
+  margin: 10px 0 16px;
+  color: var(--navy-950);
+  font-size: 18px;
+}
+
+.contact-grid a,
+.contact-grid em {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.contact-grid a:hover {
+  color: var(--blue-500);
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -706,6 +759,13 @@ select {
 
 .final-cta .btn {
   margin-top: 24px;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .site-footer {
@@ -1158,7 +1218,8 @@ dd {
 
   .property-grid,
   .blog-grid,
-  .testimonial-grid {
+  .testimonial-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 

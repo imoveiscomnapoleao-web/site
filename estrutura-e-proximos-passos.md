@@ -1,10 +1,13 @@
-# Site imobiliario Napoleao Viana & Akylla
-
+﻿# Site imobiliario Napoleao Viana & Akylla Marques
 ## Identidade visual
 
-- Marca: Napoleao Viana & Akylla
-- CRECI: 228.582-F
-- WhatsApp visivel no site: (11) 94818-7023
+- Marca: Napoleao Viana
+- Assinatura institucional: Napoleao Viana & Akylla Marques
+- CRECI Napoleao: 228.582-F
+- CRECI Akylla Marques: 228.155-F
+- WhatsApp Napoleao: (11) 94818-7023
+- WhatsApp Akylla Marques: (11) 93230-0839
+- E-mail profissional Napoleao: elizeuton.viana@creci.org.br
 - Posicionamento: casal especialista em imoveis premium, com atendimento consultivo, estrategico e altamente personalizado
 - Regioes: Alphaville, Barueri, Osasco, Sao Paulo e Santana de Parnaiba
 - Tom de comunicacao: premium, direto, confiavel, acolhedor e estrategico
@@ -15,11 +18,11 @@
 
 ## Posicionamento da marca
 
-Napoleao e Akylla atuam como um casal premium no mercado imobiliario. A proposta nao e apenas apresentar imoveis, mas conduzir cada cliente com estrategia, cuidado e seguranca do primeiro contato ate a decisao final.
+Napoleao Viana e Akylla Marques atuam como um casal premium no mercado imobiliario. A proposta nao e apenas apresentar imoveis, mas conduzir cada cliente com estrategia, cuidado e seguranca do primeiro contato ate a decisao final.
 
 Napoleao soma mais de 10 anos de mercado imobiliario, incluindo quase 7 anos como gerente de vendas, com mais de R$ 300 milhoes em VGV vendido ao longo da trajetoria comercial. Essa vivencia traz leitura de mercado, dominio de negociacao e clareza para orientar compradores, vendedores e proprietarios.
 
-Akylla fortalece a experiencia com presenca proxima, organizacao, sensibilidade no atendimento e cuidado nos detalhes da jornada. Juntos, entregam uma assessoria imobiliaria em casal: mais humana, mais presente e mais estrategica.
+Akylla Marques fortalece a experiencia com presenca proxima, organizacao, sensibilidade no atendimento e cuidado nos detalhes da jornada. Juntos, entregam uma assessoria imobiliaria em casal: mais humana, mais presente e mais estrategica.
 
 ## Frase central
 
@@ -28,15 +31,15 @@ Imoveis de alto padrao com um casal especialista ao seu lado.
 ## Estrutura recomendada do site
 
 1. Pagina inicial
-   - Apresentacao da marca Napoleao & Akylla
+   - Apresentacao da vitrine de imoveis premium
    - Botoes de WhatsApp para compra e venda
-   - Faixa de confianca com anos de mercado, VGV vendido e atendimento em casal
-   - Secao Sobre com foto profissional
+   - Faixa de confianca com anos de mercado, VGV vendido e atendimento consultivo
    - Imoveis em destaque
    - Chamada para proprietarios
    - Depoimentos
    - Regioes de atuacao
    - Blog e videos
+   - Secao Sobre no final, apresentando Napoleao Viana e Akylla Marques como casal especialista
 
 2. Imoveis
    - Listagem por regiao
@@ -67,7 +70,15 @@ Imoveis de alto padrao com um casal especialista ao seu lado.
    - Videos curtos do Instagram
    - Conteudos educativos do YouTube
 
-7. Sobre Napoleao & Akylla
+7. Redes sociais
+   - Instagram
+   - Facebook
+   - TikTok
+   - LinkedIn
+   - YouTube como canal prioritario para autoridade, tours e conteudo educativo
+   - Inserir os links oficiais quando forem enviados
+
+8. Sobre Napoleao & Akylla Marques
    - Historia profissional
    - Mais de 10 anos de mercado imobiliario
    - Quase 7 anos de experiencia em gestao de vendas
@@ -75,7 +86,7 @@ Imoveis de alto padrao com um casal especialista ao seu lado.
    - Forma de atendimento em casal
    - CRECI e dados oficiais
 
-8. Contato
+9. Contato
    - WhatsApp
    - E-mail
    - Instagram
@@ -86,17 +97,16 @@ Imoveis de alto padrao com um casal especialista ao seu lado.
 
 ### Chamada principal
 
-Napoleao Viana & Akylla
-
+Napoleao Viana & Akylla Marques
 Imoveis de alto padrao com um casal especialista ao seu lado.
 
-Napoleao e Akylla unem experiencia comercial, cuidado no atendimento e visao estrategica para ajudar voce a comprar, vender ou avaliar imoveis premium com seguranca.
+Napoleao Viana e Akylla Marques unem experiencia comercial, cuidado no atendimento e visao estrategica para ajudar voce a comprar, vender ou avaliar imoveis premium com seguranca.
 
 ### Chamada para proprietarios
 
 Quer vender seu imovel com posicionamento premium e conducao em dupla?
 
-Antes de anunciar, seu imovel precisa de estrategia: preco coerente, apresentacao refinada, publico certo e conducao profissional das negociacoes. Napoleao e Akylla organizam esse processo com olhar comercial, atendimento proximo e posicionamento premium.
+Antes de anunciar, seu imovel precisa de estrategia: preco coerente, apresentacao refinada, publico certo e conducao profissional das negociacoes. Napoleao Viana e Akylla Marques organizam esse processo com olhar comercial, atendimento proximo e posicionamento premium.
 
 ### Chamada para compradores
 
@@ -119,11 +129,26 @@ Encontre o imovel certo com um casal especialista que conhece Alphaville, Baruer
 
 Numero configurado no site:
 
-`(11) 94818-7023`
+Napoleao: `(11) 94818-7023`
+
+Akylla Marques: `(11) 93230-0839`
 
 Formato usado nos links:
 
 `https://wa.me/5511948187023?text=Ola,%20Napoleao.%20Vim%20pelo%20site.`
+
+`https://wa.me/5511932300839?text=Ola,%20Akylla%20Marques.%20Vim%20pelo%20site.`
+
+## Depoimentos
+
+Depoimentos reais sao recomendados porque aumentam confianca, autoridade e conversao.
+
+Orientacao:
+
+- Usar nomes, fotos ou perfis apenas com autorizacao do cliente.
+- Quando nao houver autorizacao para imagem, usar primeiro nome, bairro/regiao e contexto da compra ou venda.
+- Evitar expor dados sensiveis de negociacao.
+- Manter tom discreto, profissional e verificavel.
 
 ## Dominio
 
@@ -160,3 +185,6 @@ Enderecos principais:
 - Diferenciais: piscina, gourmet, vista, elevador, mobiliado, lazer, seguranca
 - Fotos
 - Link de video, Reels ou YouTube, se houver
+
+
+
