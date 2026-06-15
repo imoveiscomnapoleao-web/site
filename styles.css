@@ -227,11 +227,6 @@ a {
   letter-spacing: 0.8px;
 }
 
-.creci-line span {
-  display: block;
-  line-height: 1.45;
-}
-
 .hero-card ul {
   display: grid;
   gap: 10px;
@@ -248,7 +243,7 @@ a {
 
 .trust-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   background: var(--navy-950);
   color: var(--white);
   border-top: 1px solid rgba(191, 231, 255, 0.18);
@@ -294,103 +289,6 @@ a {
   font-size: 18px;
 }
 
-.about-section {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.86fr) minmax(0, 1fr);
-  gap: clamp(30px, 5vw, 78px);
-  align-items: center;
-  background: var(--white);
-}
-
-.about-media {
-  position: relative;
-  min-height: 640px;
-  overflow: hidden;
-  border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(6, 23, 41, 0.02), rgba(6, 23, 41, 0.68)),
-    url("assets/perfil/napoleao-akylla.jpeg") center center/cover;
-  box-shadow: var(--shadow);
-}
-
-.about-media::before {
-  content: "";
-  position: absolute;
-  inset: 18px;
-  border: 1px solid rgba(191, 231, 255, 0.5);
-  border-radius: 6px;
-  pointer-events: none;
-}
-
-.about-badge {
-  position: absolute;
-  right: 24px;
-  bottom: 24px;
-  left: 24px;
-  padding: 24px;
-  background: rgba(6, 23, 41, 0.84);
-  border: 1px solid rgba(191, 231, 255, 0.28);
-  border-radius: 8px;
-  color: var(--white);
-  backdrop-filter: blur(12px);
-}
-
-.about-badge strong,
-.about-badge span {
-  display: block;
-}
-
-.about-badge strong {
-  color: var(--blue-300);
-  font-size: 13px;
-  font-weight: 850;
-  letter-spacing: 1px;
-}
-
-.about-badge span {
-  margin-top: 8px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 26px;
-  line-height: 1.15;
-}
-
-.about-content {
-  max-width: 820px;
-}
-
-.about-content p:not(.section-kicker) {
-  margin: 22px 0 0;
-  color: #405367;
-  font-size: 18px;
-}
-
-.about-content blockquote {
-  margin: 30px 0 0;
-  padding: 24px 0 24px 26px;
-  border-left: 4px solid var(--blue-500);
-  color: var(--navy-950);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(25px, 3vw, 38px);
-  line-height: 1.12;
-}
-
-.about-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 26px;
-}
-
-.about-highlights span {
-  padding: 10px 14px;
-  border: 1px solid rgba(95, 181, 232, 0.34);
-  border-radius: 999px;
-  color: var(--navy-800);
-  background: var(--ice);
-  font-size: 13px;
-  font-weight: 850;
-}
-
 h2 {
   margin: 0;
   color: var(--navy-950);
@@ -408,12 +306,6 @@ h2 {
   margin-bottom: 34px;
 }
 
-.section-intro {
-  max-width: 680px;
-  margin: 10px 0 0;
-  color: var(--muted);
-}
-
 .section-link {
   color: var(--navy-800);
   font-weight: 850;
@@ -426,10 +318,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px;
-}
-
-.property-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .property-card,
@@ -482,18 +370,6 @@ h2 {
 
 .image-7 {
   background-image: url("assets/santa-ana/fachada-dia.jpeg");
-}
-
-.image-8 {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
-}
-
-.image-9 {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
-}
-
-.image-10 {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
 }
 
 .tag {
@@ -674,53 +550,6 @@ select {
   color: rgba(255, 255, 255, 0.74);
 }
 
-.contact-section {
-  background: var(--white);
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
-}
-
-.contact-grid article {
-  padding: 24px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: linear-gradient(180deg, #ffffff, #f5f9fc);
-  box-shadow: 0 18px 44px rgba(6, 23, 41, 0.07);
-}
-
-.contact-grid span {
-  display: block;
-  color: var(--blue-500);
-  font-size: 12px;
-  font-weight: 850;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.contact-grid strong {
-  display: block;
-  margin: 10px 0 16px;
-  color: var(--navy-950);
-  font-size: 18px;
-}
-
-.contact-grid a,
-.contact-grid em {
-  display: block;
-  color: var(--muted);
-  font-style: normal;
-  line-height: 1.7;
-  overflow-wrap: anywhere;
-}
-
-.contact-grid a:hover {
-  color: var(--blue-500);
-}
-
 .video-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -772,13 +601,6 @@ select {
 
 .final-cta .btn {
   margin-top: 24px;
-}
-
-.cta-actions {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
 }
 
 .site-footer {
@@ -1026,94 +848,6 @@ dd {
   background-image: url("assets/santa-ana/fachada-noite.jpeg");
 }
 
-.detail-image-8 {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
-}
-
-.detail-image-9 {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
-}
-
-.detail-image-10 {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
-}
-
-.vila-formosa-fachada {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
-}
-
-.vila-formosa-garagem {
-  background-image: url("assets/vila-formosa/garagem-coberta.jpeg");
-}
-
-.vila-formosa-sala {
-  background-image: url("assets/vila-formosa/sala-principal.jpeg");
-}
-
-.vila-formosa-jantar {
-  background-image: url("assets/vila-formosa/sala-jantar.jpeg");
-}
-
-.vila-formosa-sala-ampla {
-  background-image: url("assets/vila-formosa/sala-ampla.jpeg");
-}
-
-.vila-formosa-cozinha {
-  background-image: url("assets/vila-formosa/cozinha-planejada.jpeg");
-}
-
-.vila-formosa-bancada {
-  background-image: url("assets/vila-formosa/cozinha-bancada.jpeg");
-}
-
-.vila-formosa-copa {
-  background-image: url("assets/vila-formosa/copa-integrada.jpeg");
-}
-
-.vila-formosa-gourmet {
-  background-image: url("assets/vila-formosa/gourmet-churrasqueira.jpeg");
-}
-
-.vila-formosa-area-gourmet {
-  background-image: url("assets/vila-formosa/area-gourmet.jpeg");
-}
-
-.vila-formosa-varanda {
-  background-image: url("assets/vila-formosa/varanda-vista.jpeg");
-}
-
-.vila-formosa-suite {
-  background-image: url("assets/vila-formosa/suite-planejada.jpeg");
-}
-
-.vila-formosa-suite-armarios {
-  background-image: url("assets/vila-formosa/suite-armarios.jpeg");
-}
-
-.vila-formosa-dormitorio {
-  background-image: url("assets/vila-formosa/dormitorio.jpeg");
-}
-
-.vila-formosa-escritorio {
-  background-image: url("assets/vila-formosa/escritorio.jpeg");
-}
-
-.vila-formosa-banheiro {
-  background-image: url("assets/vila-formosa/banheiro-master.jpeg");
-}
-
-.vila-formosa-hidro {
-  background-image: url("assets/vila-formosa/hidromassagem.jpeg");
-}
-
-.vila-formosa-escada {
-  background-image: url("assets/vila-formosa/escada-caracol.jpeg");
-}
-
-.vila-formosa-sotao {
-  background-image: url("assets/vila-formosa/sotao-sala.jpeg");
-}
-
 .santa-fachada-dia {
   background-image: url("assets/santa-ana/fachada-dia.jpeg");
 }
@@ -1170,106 +904,6 @@ dd {
   background-image: url("assets/santa-ana/lavabo.jpeg");
 }
 
-.noah-fachada-frontal {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
-}
-
-.noah-piscina {
-  background-image: url("assets/casa-noah/piscina-cascata.jpeg");
-}
-
-.noah-area-gourmet {
-  background-image: url("assets/casa-noah/area-gourmet.jpeg");
-}
-
-.noah-sala-externa {
-  background-image: url("assets/casa-noah/sala-externa.jpeg");
-}
-
-.noah-gourmet-integrado {
-  background-image: url("assets/casa-noah/gourmet-integrado.jpeg");
-}
-
-.noah-fachada-lateral {
-  background-image: url("assets/casa-noah/fachada-lateral.jpeg");
-}
-
-.noah-sala-madeira {
-  background-image: url("assets/casa-noah/sala-madeira.jpeg");
-}
-
-.noah-cozinha-ilha {
-  background-image: url("assets/casa-noah/cozinha-ilha.jpeg");
-}
-
-.noah-jantar {
-  background-image: url("assets/casa-noah/jantar-integrado.jpeg");
-}
-
-.noah-adega {
-  background-image: url("assets/casa-noah/adega-gourmet.jpeg");
-}
-
-.noah-copa {
-  background-image: url("assets/casa-noah/copa-planejada.jpeg");
-}
-
-.noah-cozinha-vista {
-  background-image: url("assets/casa-noah/cozinha-vista.jpeg");
-}
-
-.noah-living-madeira {
-  background-image: url("assets/casa-noah/living-madeira.jpeg");
-}
-
-.taina-fachada {
-  background-image: url("assets/casa-taina-vila-jaguari/fachada.jpeg");
-}
-
-.taina-fachada-protegida {
-  background-image: url("assets/casa-taina-vila-jaguari/fachada-portao-protegida.jpeg");
-}
-
-.taina-gourmet-principal {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
-}
-
-.taina-gourmet-ampla {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-ampla.jpeg");
-}
-
-.taina-cozinha {
-  background-image: url("assets/casa-taina-vila-jaguari/cozinha-integrada.jpeg");
-}
-
-.taina-sala-cozinha {
-  background-image: url("assets/casa-taina-vila-jaguari/sala-cozinha.jpeg");
-}
-
-.taina-escada {
-  background-image: url("assets/casa-taina-vila-jaguari/escada.jpeg");
-}
-
-.taina-suite-varanda {
-  background-image: url("assets/casa-taina-vila-jaguari/suite-varanda.jpeg");
-}
-
-.taina-dormitorio-ar {
-  background-image: url("assets/casa-taina-vila-jaguari/dormitorio-ar.jpeg");
-}
-
-.taina-banheiro {
-  background-image: url("assets/casa-taina-vila-jaguari/banheiro-superior.jpeg");
-}
-
-.taina-lavabo {
-  background-image: url("assets/casa-taina-vila-jaguari/lavabo.jpeg");
-}
-
-.taina-piscina-vista {
-  background-image: url("assets/casa-taina-vila-jaguari/piscina-vista-mata.jpeg");
-}
-
 .property-detail {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
@@ -1319,37 +953,6 @@ dd {
   margin-top: 0;
 }
 
-.property-video {
-  display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-  gap: 20px;
-  align-items: center;
-  margin-top: 32px;
-  padding: 22px;
-  background: var(--navy-950);
-  border-radius: 8px;
-  color: var(--white);
-}
-
-.property-video h2 {
-  margin-top: 0;
-  color: var(--white);
-  font-size: 34px;
-  line-height: 1.08;
-}
-
-.property-video p:not(.section-kicker) {
-  color: rgba(255, 255, 255, 0.76);
-}
-
-.property-video video {
-  display: block;
-  width: 100%;
-  max-height: 520px;
-  background: var(--navy-950);
-  border-radius: 8px;
-}
-
 .detail-gallery div {
   min-height: 260px;
   border-radius: 8px;
@@ -1382,20 +985,14 @@ dd {
 
   .hero,
   .intro-band,
-  .about-section,
   .seller-section,
   .video-section {
     grid-template-columns: 1fr;
   }
 
-  .about-media {
-    min-height: 520px;
-  }
-
   .property-grid,
   .blog-grid,
-  .testimonial-grid,
-  .contact-grid {
+  .testimonial-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1441,21 +1038,6 @@ dd {
     padding: 22px;
   }
 
-  .about-media {
-    min-height: 430px;
-  }
-
-  .about-badge {
-    right: 16px;
-    bottom: 16px;
-    left: 16px;
-    padding: 18px;
-  }
-
-  .about-badge span {
-    font-size: 21px;
-  }
-
   .section-heading {
     display: block;
   }
@@ -1489,7 +1071,6 @@ dd {
   .detail-sidebar dl,
   .detail-gallery,
   .detail-gallery.expanded,
-  .property-video,
   .feature-list {
     grid-template-columns: 1fr;
   }
