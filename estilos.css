@@ -496,6 +496,10 @@ h2 {
   background-image: url("assets/vila-formosa/fachada-principal.jpeg");
 }
 
+.image-11 {
+  background-image: url("assets/reserva-santa-anna/fachada-principal.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1036,6 +1040,74 @@ dd {
 
 .detail-image-10 {
   background-image: url("assets/vila-formosa/fachada-principal.jpeg");
+}
+
+.detail-image-11 {
+  background-image: url("assets/reserva-santa-anna/fachada-principal.jpeg");
+}
+
+.reserva-fachada {
+  background-image: url("assets/reserva-santa-anna/fachada-principal.jpeg");
+}
+
+.reserva-sala-integrada {
+  background-image: url("assets/reserva-santa-anna/sala-integrada-piscina.jpeg");
+}
+
+.reserva-cozinha-integrada {
+  background-image: url("assets/reserva-santa-anna/cozinha-integrada.jpeg");
+}
+
+.reserva-sala-pe-direito {
+  background-image: url("assets/reserva-santa-anna/sala-pe-direito-duplo.jpeg");
+}
+
+.reserva-piscina {
+  background-image: url("assets/reserva-santa-anna/piscina.jpeg");
+}
+
+.reserva-piscina-choupana {
+  background-image: url("assets/reserva-santa-anna/piscina-choupana.jpeg");
+}
+
+.reserva-piscina-fachada {
+  background-image: url("assets/reserva-santa-anna/piscina-fachada.jpeg");
+}
+
+.reserva-rooftop-jacuzzi {
+  background-image: url("assets/reserva-santa-anna/rooftop-jacuzzi.jpeg");
+}
+
+.reserva-rooftop-vista {
+  background-image: url("assets/reserva-santa-anna/rooftop-vista.jpeg");
+}
+
+.reserva-piscina-superior {
+  background-image: url("assets/reserva-santa-anna/piscina-vista-superior.jpeg");
+}
+
+.reserva-varanda {
+  background-image: url("assets/reserva-santa-anna/varanda-superior.jpeg");
+}
+
+.reserva-suite {
+  background-image: url("assets/reserva-santa-anna/suite.jpeg");
+}
+
+.reserva-banheiro-cuba {
+  background-image: url("assets/reserva-santa-anna/banheiro-cuba-dupla.jpeg");
+}
+
+.reserva-banheiro-suite {
+  background-image: url("assets/reserva-santa-anna/banheiro-suite.jpeg");
+}
+
+.reserva-cozinha-ilha {
+  background-image: url("assets/reserva-santa-anna/cozinha-ilha.jpeg");
+}
+
+.reserva-cozinha-ampla {
+  background-image: url("assets/reserva-santa-anna/cozinha-ampla.jpeg");
 }
 
 .vila-formosa-fachada {
