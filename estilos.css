@@ -504,6 +504,10 @@ h2 {
   background-image: url("assets/new-ville/fachada.jpeg");
 }
 
+.image-13 {
+  background-image: url("assets/new-ville-1700/fachada.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1117,6 +1121,83 @@ dd {
 .detail-image-12 {
   background-image: url("assets/new-ville/fachada.jpeg");
 }
+
+.detail-image-13 {
+  background-image: url("assets/new-ville-1700/fachada.jpeg");
+}
+
+.new-ville-1700-fachada {
+  background-image: url("assets/new-ville-1700/fachada.jpeg");
+}
+
+.new-ville-1700-area-lazer-piscina {
+  background-image: url("assets/new-ville-1700/area-lazer-piscina.jpeg");
+}
+
+.new-ville-1700-piscina-vista {
+  background-image: url("assets/new-ville-1700/piscina-vista.jpeg");
+}
+
+.new-ville-1700-gourmet-churrasqueira {
+  background-image: url("assets/new-ville-1700/gourmet-churrasqueira.jpeg");
+}
+
+.new-ville-1700-varanda-gourmet {
+  background-image: url("assets/new-ville-1700/varanda-gourmet.jpeg");
+}
+
+.new-ville-1700-sala-estar {
+  background-image: url("assets/new-ville-1700/sala-estar.jpeg");
+}
+
+.new-ville-1700-sala-jantar {
+  background-image: url("assets/new-ville-1700/sala-jantar.jpeg");
+}
+
+.new-ville-1700-cozinha-planejada {
+  background-image: url("assets/new-ville-1700/cozinha-planejada.jpeg");
+}
+
+.new-ville-1700-hall-entrada {
+  background-image: url("assets/new-ville-1700/hall-entrada.jpeg");
+}
+
+.new-ville-1700-escritorio {
+  background-image: url("assets/new-ville-1700/escritorio.jpeg");
+}
+
+.new-ville-1700-lavabo {
+  background-image: url("assets/new-ville-1700/lavabo.jpeg");
+}
+
+.new-ville-1700-suite-master {
+  background-image: url("assets/new-ville-1700/suite-master.jpeg");
+}
+
+.new-ville-1700-banheiro-master {
+  background-image: url("assets/new-ville-1700/banheiro-master.jpeg");
+}
+
+.new-ville-1700-closet {
+  background-image: url("assets/new-ville-1700/closet.jpeg");
+}
+
+.new-ville-1700-banheiro-social {
+  background-image: url("assets/new-ville-1700/banheiro-social.jpeg");
+}
+
+.new-ville-1700-dormitorio-apoio {
+  background-image: url("assets/new-ville-1700/dormitorio-apoio.jpeg");
+}
+
+.new-ville-1700-lavanderia {
+  background-image: url("assets/new-ville-1700/lavanderia.jpeg");
+}
+
+.new-ville-1700-lavabo-inferior {
+  background-image: url("assets/new-ville-1700/lavabo-inferior.jpeg");
+}
+
 
 .new-ville-fachada {
   background-image: url("assets/new-ville/fachada.jpeg");
