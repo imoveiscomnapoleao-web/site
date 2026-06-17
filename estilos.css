@@ -500,6 +500,10 @@ h2 {
   background-image: url("assets/reserva-santa-anna/fachada-sem-endereco.jpeg");
 }
 
+.image-12 {
+  background-image: url("assets/new-ville/fachada.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1108,6 +1112,90 @@ dd {
 
 .reserva-cozinha-ampla {
   background-image: url("assets/reserva-santa-anna/cozinha-ampla.jpeg");
+}
+
+.detail-image-12 {
+  background-image: url("assets/new-ville/fachada.jpeg");
+}
+
+.new-ville-fachada {
+  background-image: url("assets/new-ville/fachada.jpeg");
+}
+
+.new-ville-quintal-fachada {
+  background-image: url("assets/new-ville/quintal-fachada.jpeg");
+}
+
+.new-ville-quintal-gramado {
+  background-image: url("assets/new-ville/quintal-gramado.jpeg");
+}
+
+.new-ville-sala-lareira {
+  background-image: url("assets/new-ville/sala-lareira.jpeg");
+}
+
+.new-ville-sala-jantar {
+  background-image: url("assets/new-ville/sala-jantar.jpeg");
+}
+
+.new-ville-sala-jantar-cristal {
+  background-image: url("assets/new-ville/sala-jantar-cristal.jpeg");
+}
+
+.new-ville-sala-tv {
+  background-image: url("assets/new-ville/sala-tv.jpeg");
+}
+
+.new-ville-cozinha {
+  background-image: url("assets/new-ville/cozinha-planejada.jpeg");
+}
+
+.new-ville-suite-varanda {
+  background-image: url("assets/new-ville/suite-varanda.jpeg");
+}
+
+.new-ville-sala-tv-varanda {
+  background-image: url("assets/new-ville/sala-tv-varanda.jpeg");
+}
+
+.new-ville-varanda-vista {
+  background-image: url("assets/new-ville/varanda-vista.jpeg");
+}
+
+.new-ville-suite-mobiliada {
+  background-image: url("assets/new-ville/suite-mobiliada.jpeg");
+}
+
+.new-ville-suite-armarios {
+  background-image: url("assets/new-ville/suite-armarios.jpeg");
+}
+
+.new-ville-suite-ampla {
+  background-image: url("assets/new-ville/suite-ampla.jpeg");
+}
+
+.new-ville-closet {
+  background-image: url("assets/new-ville/closet.jpeg");
+}
+
+.new-ville-banheiro-master {
+  background-image: url("assets/new-ville/banheiro-master.jpeg");
+}
+
+.new-ville-banheiro-suite {
+  background-image: url("assets/new-ville/banheiro-suite.jpeg");
+}
+
+.new-ville-escada-granito {
+  background-image: url("assets/new-ville/escada-granito.jpeg");
+}
+
+.new-ville-escada {
+  background-image: url("assets/new-ville/escada.jpeg");
+}
+
+.new-ville-suite-escritorio {
+  background-image: url("assets/new-ville/suite-escritorio.jpeg");
 }
 
 .vila-formosa-fachada {
