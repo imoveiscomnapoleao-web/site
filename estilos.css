@@ -512,6 +512,10 @@ h2 {
   background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
 }
 
+.image-15 {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1132,6 +1136,26 @@ dd {
 
 .detail-image-14 {
   background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+}
+
+.detail-image-15 {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+}
+
+.terreno-new-ville-clube-mata {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+}
+
+.terreno-new-ville-clube-frente {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-frente.jpeg");
+}
+
+.terreno-new-ville-clube-rua {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-rua-clube.jpeg");
+}
+
+.terreno-new-ville-clube-declive {
+  background-image: url("assets/terreno-new-ville-rua-clube/terreno-declive.jpeg");
 }
 
 .terreno-new-ville-vista {
