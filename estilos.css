@@ -508,6 +508,10 @@ h2 {
   background-image: url("assets/new-ville-1700/fachada.jpeg");
 }
 
+.image-14 {
+  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1124,6 +1128,38 @@ dd {
 
 .detail-image-13 {
   background-image: url("assets/new-ville-1700/fachada.jpeg");
+}
+
+.detail-image-14 {
+  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+}
+
+.terreno-new-ville-vista {
+  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+}
+
+.terreno-new-ville-frente {
+  background-image: url("assets/terreno-new-ville/terreno-frente.jpeg");
+}
+
+.terreno-new-ville-rua {
+  background-image: url("assets/terreno-new-ville/terreno-rua.jpeg");
+}
+
+.terreno-new-ville-declive {
+  background-image: url("assets/terreno-new-ville/terreno-declive.jpeg");
+}
+
+.terreno-new-ville-projeto-fachada {
+  background-image: url("assets/terreno-new-ville/projeto-fachada.jpeg");
+}
+
+.terreno-new-ville-projeto-frontal {
+  background-image: url("assets/terreno-new-ville/projeto-frontal.jpeg");
+}
+
+.terreno-new-ville-projeto-lazer {
+  background-image: url("assets/terreno-new-ville/projeto-lazer.jpeg");
 }
 
 .new-ville-1700-fachada {
