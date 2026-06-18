@@ -516,6 +516,10 @@ h2 {
   background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
 }
 
+.image-16 {
+  background-image: url("assets/new-ville-locacao-venda/fachada-jardim.jpeg");
+}
+
 .tag {
   position: absolute;
   left: 16px;
@@ -1140,6 +1144,102 @@ dd {
 
 .detail-image-15 {
   background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+}
+
+.detail-image-16 {
+  background-image: url("assets/new-ville-locacao-venda/fachada-jardim.jpeg");
+}
+
+.nv016-fachada-jardim {
+  background-image: url("assets/new-ville-locacao-venda/fachada-jardim.jpeg");
+}
+
+.nv016-fachada-principal {
+  background-image: url("assets/new-ville-locacao-venda/fachada-principal.jpeg");
+}
+
+.nv016-piscina-cascata {
+  background-image: url("assets/new-ville-locacao-venda/piscina-cascata.jpeg");
+}
+
+.nv016-area-gourmet-piscina {
+  background-image: url("assets/new-ville-locacao-venda/area-gourmet-piscina.jpeg");
+}
+
+.nv016-spa {
+  background-image: url("assets/new-ville-locacao-venda/spa.jpeg");
+}
+
+.nv016-churrasqueira {
+  background-image: url("assets/new-ville-locacao-venda/churrasqueira.jpeg");
+}
+
+.nv016-sala-jantar {
+  background-image: url("assets/new-ville-locacao-venda/sala-jantar.jpeg");
+}
+
+.nv016-sala-ampla {
+  background-image: url("assets/new-ville-locacao-venda/sala-ampla.jpeg");
+}
+
+.nv016-sala-varanda {
+  background-image: url("assets/new-ville-locacao-venda/sala-varanda.jpeg");
+}
+
+.nv016-cozinha {
+  background-image: url("assets/new-ville-locacao-venda/cozinha.jpeg");
+}
+
+.nv016-cozinha-armarios {
+  background-image: url("assets/new-ville-locacao-venda/cozinha-armarios.jpeg");
+}
+
+.nv016-suite-master {
+  background-image: url("assets/new-ville-locacao-venda/suite-master.jpeg");
+}
+
+.nv016-closet-master {
+  background-image: url("assets/new-ville-locacao-venda/closet-master.jpeg");
+}
+
+.nv016-banheiro-master {
+  background-image: url("assets/new-ville-locacao-venda/banheiro-master.jpeg");
+}
+
+.nv016-dormitorio-escritorio {
+  background-image: url("assets/new-ville-locacao-venda/dormitorio-escritorio.jpeg");
+}
+
+.nv016-dormitorio-ar {
+  background-image: url("assets/new-ville-locacao-venda/dormitorio-ar.jpeg");
+}
+
+.nv016-dormitorio-armarios {
+  background-image: url("assets/new-ville-locacao-venda/dormitorio-armarios.jpeg");
+}
+
+.nv016-dormitorio-planejado {
+  background-image: url("assets/new-ville-locacao-venda/dormitorio-planejado.jpeg");
+}
+
+.nv016-vista-sacada {
+  background-image: url("assets/new-ville-locacao-venda/vista-sacada.jpeg");
+}
+
+.nv016-escada {
+  background-image: url("assets/new-ville-locacao-venda/escada.jpeg");
+}
+
+.nv016-vista-piscina-superior {
+  background-image: url("assets/new-ville-locacao-venda/vista-piscina-superior.jpeg");
+}
+
+.nv016-piscina-lateral {
+  background-image: url("assets/new-ville-locacao-venda/piscina-lateral.jpeg");
+}
+
+.nv016-piscina-sol {
+  background-image: url("assets/new-ville-locacao-venda/piscina-sol.jpeg");
 }
 
 .terreno-new-ville-clube-mata {
