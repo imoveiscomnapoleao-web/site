@@ -545,6 +545,66 @@ h2 {
   font-weight: 800;
 }
 
+.property-card.sold .property-image,
+.catalog-card.sold .catalog-image,
+.property-detail-hero.sold-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.property-card.sold .property-image::after,
+.catalog-card.sold .catalog-image::after,
+.property-detail-hero.sold-hero::after {
+  content: "VENDIDO";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 135%;
+  transform: translate(-50%, -50%) rotate(-14deg);
+  padding: 12px 0;
+  background: rgba(210, 24, 24, 0.94);
+  color: var(--white);
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+  pointer-events: none;
+  z-index: 3;
+}
+
+.property-card.sold .property-image::after,
+.catalog-card.sold .catalog-image::after {
+  font-size: 1.45rem;
+}
+
+.property-card.sold .tag,
+.catalog-card.sold .tag {
+  z-index: 4;
+  background: #d21818;
+  color: var(--white);
+}
+
+.property-detail-hero.sold-hero::after {
+  top: 54%;
+  width: 125%;
+  padding: 18px 0;
+  font-size: clamp(2rem, 6vw, 5rem);
+  z-index: 1;
+  opacity: 0.96;
+}
+
+.property-detail-hero.sold-hero > div {
+  position: relative;
+  z-index: 2;
+}
+
+.status-sold {
+  color: #d21818;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .property-body,
 .blog-grid article,
 .region-grid article,
