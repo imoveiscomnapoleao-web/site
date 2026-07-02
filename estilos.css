@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --navy-950: #061729;
   --navy-900: #09213a;
   --navy-800: #0d3155;
@@ -309,7 +309,7 @@ a {
   border-radius: 8px;
   background:
     linear-gradient(180deg, rgba(6, 23, 41, 0.02), rgba(6, 23, 41, 0.68)),
-    url("assets/perfil/napoleao-akylla.jpeg") center center/cover;
+    url("ativos/perfil/napoleao-akylla.jpeg") center center/cover;
   box-shadow: var(--shadow);
 }
 
@@ -481,59 +481,59 @@ h2 {
 }
 
 .image-7 {
-  background-image: url("assets/santa-ana/fachada-dia.jpeg");
+  background-image: url("ativos/santa-ana/fachada-dia.jpeg");
 }
 
 .image-8 {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
+  background-image: url("ativos/casa-noah/fachada-frontal.jpeg");
 }
 
 .image-9 {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
 }
 
 .image-10 {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
+  background-image: url("ativos/vila-formosa/fachada-principal.jpeg");
 }
 
 .image-11 {
-  background-image: url("assets/reserva-santa-anna/fachada-sem-endereco.jpeg");
+  background-image: url("ativos/reserva-santa-anna/fachada-sem-endereco.jpeg");
 }
 
 .image-12 {
-  background-image: url("assets/new-ville/fachada.jpeg");
+  background-image: url("ativos/new-ville/fachada.jpeg");
 }
 
 .image-13 {
-  background-image: url("assets/new-ville-1700/fachada.jpeg");
+  background-image: url("ativos/new-ville-1700/fachada.jpeg");
 }
 
 .image-14 {
-  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-vista.jpeg");
 }
 
 .image-15 {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-mata.jpeg");
 }
 
 .image-16 {
-  background-image: url("assets/new-ville-417m/foto-34.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-34.jpeg");
 }
 
 .image-17 {
-  background-image: url("assets/nova-jaguari-153m/capa.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/capa.jpeg");
 }
 
 .image-18 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
 }
 
 .image-19 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
 }
 
 .image-20 {
-  background-image: url("assets/nova-jaguari-169m/foto-01.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-01.jpeg");
 }
 
 .tag {
@@ -1123,1160 +1123,1160 @@ dd {
 }
 
 .detail-image-7 {
-  background-image: url("assets/santa-ana/fachada-noite.jpeg");
+  background-image: url("ativos/santa-ana/fachada-noite.jpeg");
 }
 
 .detail-image-8 {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
+  background-image: url("ativos/casa-noah/fachada-frontal.jpeg");
 }
 
 .detail-image-9 {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
 }
 
 .detail-image-10 {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
+  background-image: url("ativos/vila-formosa/fachada-principal.jpeg");
 }
 
 .detail-image-11 {
-  background-image: url("assets/reserva-santa-anna/fachada-sem-endereco.jpeg");
+  background-image: url("ativos/reserva-santa-anna/fachada-sem-endereco.jpeg");
 }
 
 .reserva-fachada {
-  background-image: url("assets/reserva-santa-anna/fachada-sem-endereco.jpeg");
+  background-image: url("ativos/reserva-santa-anna/fachada-sem-endereco.jpeg");
 }
 
 .reserva-sala-integrada {
-  background-image: url("assets/reserva-santa-anna/sala-integrada-piscina.jpeg");
+  background-image: url("ativos/reserva-santa-anna/sala-integrada-piscina.jpeg");
 }
 
 .reserva-cozinha-integrada {
-  background-image: url("assets/reserva-santa-anna/cozinha-integrada.jpeg");
+  background-image: url("ativos/reserva-santa-anna/cozinha-integrada.jpeg");
 }
 
 .reserva-sala-pe-direito {
-  background-image: url("assets/reserva-santa-anna/sala-pe-direito-duplo.jpeg");
+  background-image: url("ativos/reserva-santa-anna/sala-pe-direito-duplo.jpeg");
 }
 
 .reserva-piscina {
-  background-image: url("assets/reserva-santa-anna/piscina.jpeg");
+  background-image: url("ativos/reserva-santa-anna/piscina.jpeg");
 }
 
 .reserva-piscina-choupana {
-  background-image: url("assets/reserva-santa-anna/piscina-choupana.jpeg");
+  background-image: url("ativos/reserva-santa-anna/piscina-choupana.jpeg");
 }
 
 .reserva-piscina-fachada {
-  background-image: url("assets/reserva-santa-anna/piscina-fachada.jpeg");
+  background-image: url("ativos/reserva-santa-anna/piscina-fachada.jpeg");
 }
 
 .reserva-rooftop-jacuzzi {
-  background-image: url("assets/reserva-santa-anna/rooftop-jacuzzi.jpeg");
+  background-image: url("ativos/reserva-santa-anna/rooftop-jacuzzi.jpeg");
 }
 
 .reserva-rooftop-vista {
-  background-image: url("assets/reserva-santa-anna/rooftop-vista.jpeg");
+  background-image: url("ativos/reserva-santa-anna/rooftop-vista.jpeg");
 }
 
 .reserva-piscina-superior {
-  background-image: url("assets/reserva-santa-anna/piscina-vista-superior.jpeg");
+  background-image: url("ativos/reserva-santa-anna/piscina-vista-superior.jpeg");
 }
 
 .reserva-varanda {
-  background-image: url("assets/reserva-santa-anna/varanda-superior.jpeg");
+  background-image: url("ativos/reserva-santa-anna/varanda-superior.jpeg");
 }
 
 .reserva-suite {
-  background-image: url("assets/reserva-santa-anna/suite.jpeg");
+  background-image: url("ativos/reserva-santa-anna/suite.jpeg");
 }
 
 .reserva-banheiro-cuba {
-  background-image: url("assets/reserva-santa-anna/banheiro-cuba-dupla.jpeg");
+  background-image: url("ativos/reserva-santa-anna/banheiro-cuba-dupla.jpeg");
 }
 
 .reserva-banheiro-suite {
-  background-image: url("assets/reserva-santa-anna/banheiro-suite.jpeg");
+  background-image: url("ativos/reserva-santa-anna/banheiro-suite.jpeg");
 }
 
 .reserva-cozinha-ilha {
-  background-image: url("assets/reserva-santa-anna/cozinha-ilha.jpeg");
+  background-image: url("ativos/reserva-santa-anna/cozinha-ilha.jpeg");
 }
 
 .reserva-cozinha-ampla {
-  background-image: url("assets/reserva-santa-anna/cozinha-ampla.jpeg");
+  background-image: url("ativos/reserva-santa-anna/cozinha-ampla.jpeg");
 }
 
 .detail-image-12 {
-  background-image: url("assets/new-ville/fachada.jpeg");
+  background-image: url("ativos/new-ville/fachada.jpeg");
 }
 
 .detail-image-13 {
-  background-image: url("assets/new-ville-1700/fachada.jpeg");
+  background-image: url("ativos/new-ville-1700/fachada.jpeg");
 }
 
 .detail-image-14 {
-  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-vista.jpeg");
 }
 
 .detail-image-15 {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-mata.jpeg");
 }
 
 .detail-image-16 {
-  background-image: url("assets/new-ville-417m/foto-34.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-34.jpeg");
 }
 
 .detail-image-17 {
-  background-image: url("assets/nova-jaguari-153m/capa.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/capa.jpeg");
 }
 
 .detail-image-18 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
 }
 
 .detail-image-19 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
 }
 
 .detail-image-20 {
-  background-image: url("assets/nova-jaguari-169m/foto-01.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-01.jpeg");
 }
 
 .nv020-foto-01 {
-  background-image: url("assets/nova-jaguari-169m/foto-01.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-01.jpeg");
 }
 
 .nv020-foto-02 {
-  background-image: url("assets/nova-jaguari-169m/foto-02.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-02.jpeg");
 }
 
 .nv020-foto-03 {
-  background-image: url("assets/nova-jaguari-169m/foto-03.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-03.jpeg");
 }
 
 .nv020-foto-04 {
-  background-image: url("assets/nova-jaguari-169m/foto-04.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-04.jpeg");
 }
 
 .nv020-foto-05 {
-  background-image: url("assets/nova-jaguari-169m/foto-05.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-05.jpeg");
 }
 
 .nv020-foto-06 {
-  background-image: url("assets/nova-jaguari-169m/foto-06.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-06.jpeg");
 }
 
 .nv020-foto-07 {
-  background-image: url("assets/nova-jaguari-169m/foto-07.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-07.jpeg");
 }
 
 .nv020-foto-08 {
-  background-image: url("assets/nova-jaguari-169m/foto-08.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-08.jpeg");
 }
 
 .nv020-foto-09 {
-  background-image: url("assets/nova-jaguari-169m/foto-09.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-09.jpeg");
 }
 
 .nv020-foto-10 {
-  background-image: url("assets/nova-jaguari-169m/foto-10.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-10.jpeg");
 }
 
 .nv020-foto-11 {
-  background-image: url("assets/nova-jaguari-169m/foto-11.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-11.jpeg");
 }
 
 .nv020-foto-12 {
-  background-image: url("assets/nova-jaguari-169m/foto-12.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-12.jpeg");
 }
 
 .nv020-foto-13 {
-  background-image: url("assets/nova-jaguari-169m/foto-13.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-13.jpeg");
 }
 
 .nv020-foto-14 {
-  background-image: url("assets/nova-jaguari-169m/foto-14.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-14.jpeg");
 }
 
 .nv020-foto-15 {
-  background-image: url("assets/nova-jaguari-169m/foto-15.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-15.jpeg");
 }
 
 .nv020-foto-16 {
-  background-image: url("assets/nova-jaguari-169m/foto-16.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-16.jpeg");
 }
 
 .nv020-foto-17 {
-  background-image: url("assets/nova-jaguari-169m/foto-17.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-17.jpeg");
 }
 
 .nv020-foto-18 {
-  background-image: url("assets/nova-jaguari-169m/foto-18.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-18.jpeg");
 }
 
 .nv020-foto-19 {
-  background-image: url("assets/nova-jaguari-169m/foto-19.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-19.jpeg");
 }
 
 .nv020-foto-20 {
-  background-image: url("assets/nova-jaguari-169m/foto-20.jpeg");
+  background-image: url("ativos/nova-jaguari-169m/foto-20.jpeg");
 }
 
 .nv019-foto-01 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.27.46.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.27.46.jpeg");
 }
 
 .nv019-foto-02 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.06.jpeg");
 }
 
 .nv019-foto-03 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.16.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.16.jpeg");
 }
 
 .nv019-foto-04 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.29.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.29.jpeg");
 }
 
 .nv019-foto-05 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.39.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.39.jpeg");
 }
 
 .nv019-foto-06 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.48.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.48.jpeg");
 }
 
 .nv019-foto-07 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.55.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.28.55.jpeg");
 }
 
 .nv019-foto-08 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.02.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.02.jpeg");
 }
 
 .nv019-foto-09 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.08.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.08.jpeg");
 }
 
 .nv019-foto-10 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.16.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.16.jpeg");
 }
 
 .nv019-foto-11 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.23.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.23.jpeg");
 }
 
 .nv019-foto-12 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.28.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.28.jpeg");
 }
 
 .nv019-foto-13 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.36.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.36.jpeg");
 }
 
 .nv019-foto-14 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.44.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.44.jpeg");
 }
 
 .nv019-foto-15 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.50.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.50.jpeg");
 }
 
 .nv019-foto-16 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.57.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.29.57.jpeg");
 }
 
 .nv019-foto-17 {
-  background-image: url("assets/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.30.03.jpeg");
+  background-image: url("ativos/nova-jaguari-145m/WhatsApp Image 2026-06-23 at 20.30.03.jpeg");
 }
 
 .nv018-foto-01 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.39.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.39.jpeg");
 }
 
 .nv018-foto-02 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.47.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.47.jpeg");
 }
 
 .nv018-foto-03 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.07.53.jpeg");
 }
 
 .nv018-foto-04 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.07.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.07.jpeg");
 }
 
 .nv018-foto-05 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.13.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.13.jpeg");
 }
 
 .nv018-foto-06 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.20.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.20.jpeg");
 }
 
 .nv018-foto-07 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.29.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.29.jpeg");
 }
 
 .nv018-foto-08 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.37.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.37.jpeg");
 }
 
 .nv018-foto-09 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.47.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.47.jpeg");
 }
 
 .nv018-foto-10 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.53.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.08.53.jpeg");
 }
 
 .nv018-foto-11 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.00.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.00.jpeg");
 }
 
 .nv018-foto-12 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.08.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.08.jpeg");
 }
 
 .nv018-foto-13 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.14.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.14.jpeg");
 }
 
 .nv018-foto-14 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.21.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.21.jpeg");
 }
 
 .nv018-foto-15 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.28.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.28.jpeg");
 }
 
 .nv018-foto-16 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.46.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.46.jpeg");
 }
 
 .nv018-foto-17 {
-  background-image: url("assets/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.55.jpeg");
+  background-image: url("ativos/nova-jaguari-141m/WhatsApp Image 2026-06-23 at 20.09.55.jpeg");
 }
 
 .nv016-foto-01 {
-  background-image: url("assets/new-ville-417m/foto-01.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-01.jpeg");
 }
 
 .nv016-foto-02 {
-  background-image: url("assets/new-ville-417m/foto-02.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-02.jpeg");
 }
 
 .nv016-foto-03 {
-  background-image: url("assets/new-ville-417m/foto-03.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-03.jpeg");
 }
 
 .nv016-foto-04 {
-  background-image: url("assets/new-ville-417m/foto-04.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-04.jpeg");
 }
 
 .nv016-foto-05 {
-  background-image: url("assets/new-ville-417m/foto-05.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-05.jpeg");
 }
 
 .nv016-foto-06 {
-  background-image: url("assets/new-ville-417m/foto-06.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-06.jpeg");
 }
 
 .nv016-foto-07 {
-  background-image: url("assets/new-ville-417m/foto-07.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-07.jpeg");
 }
 
 .nv016-foto-08 {
-  background-image: url("assets/new-ville-417m/foto-08.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-08.jpeg");
 }
 
 .nv016-foto-09 {
-  background-image: url("assets/new-ville-417m/foto-09.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-09.jpeg");
 }
 
 .nv016-foto-10 {
-  background-image: url("assets/new-ville-417m/foto-10.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-10.jpeg");
 }
 
 .nv016-foto-11 {
-  background-image: url("assets/new-ville-417m/foto-11.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-11.jpeg");
 }
 
 .nv016-foto-12 {
-  background-image: url("assets/new-ville-417m/foto-12.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-12.jpeg");
 }
 
 .nv016-foto-13 {
-  background-image: url("assets/new-ville-417m/foto-13.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-13.jpeg");
 }
 
 .nv016-foto-14 {
-  background-image: url("assets/new-ville-417m/foto-14.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-14.jpeg");
 }
 
 .nv016-foto-15 {
-  background-image: url("assets/new-ville-417m/foto-15.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-15.jpeg");
 }
 
 .nv016-foto-16 {
-  background-image: url("assets/new-ville-417m/foto-16.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-16.jpeg");
 }
 
 .nv016-foto-17 {
-  background-image: url("assets/new-ville-417m/foto-17.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-17.jpeg");
 }
 
 .nv016-foto-18 {
-  background-image: url("assets/new-ville-417m/foto-18.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-18.jpeg");
 }
 
 .nv016-foto-19 {
-  background-image: url("assets/new-ville-417m/foto-19.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-19.jpeg");
 }
 
 .nv016-foto-20 {
-  background-image: url("assets/new-ville-417m/foto-20.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-20.jpeg");
 }
 
 .nv016-foto-21 {
-  background-image: url("assets/new-ville-417m/foto-21.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-21.jpeg");
 }
 
 .nv016-foto-22 {
-  background-image: url("assets/new-ville-417m/foto-22.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-22.jpeg");
 }
 
 .nv016-foto-23 {
-  background-image: url("assets/new-ville-417m/foto-23.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-23.jpeg");
 }
 
 .nv016-foto-24 {
-  background-image: url("assets/new-ville-417m/foto-24.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-24.jpeg");
 }
 
 .nv016-foto-25 {
-  background-image: url("assets/new-ville-417m/foto-25.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-25.jpeg");
 }
 
 .nv016-foto-26 {
-  background-image: url("assets/new-ville-417m/foto-26.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-26.jpeg");
 }
 
 .nv016-foto-27 {
-  background-image: url("assets/new-ville-417m/foto-27.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-27.jpeg");
 }
 
 .nv016-foto-28 {
-  background-image: url("assets/new-ville-417m/foto-28.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-28.jpeg");
 }
 
 .nv016-foto-29 {
-  background-image: url("assets/new-ville-417m/foto-29.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-29.jpeg");
 }
 
 .nv016-foto-30 {
-  background-image: url("assets/new-ville-417m/foto-30.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-30.jpeg");
 }
 
 .nv016-foto-31 {
-  background-image: url("assets/new-ville-417m/foto-31.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-31.jpeg");
 }
 
 .nv016-foto-32 {
-  background-image: url("assets/new-ville-417m/foto-32.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-32.jpeg");
 }
 
 .nv016-foto-33 {
-  background-image: url("assets/new-ville-417m/foto-33.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-33.jpeg");
 }
 
 .nv016-foto-34 {
-  background-image: url("assets/new-ville-417m/foto-34.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-34.jpeg");
 }
 
 .nv016-foto-35 {
-  background-image: url("assets/new-ville-417m/foto-35.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-35.jpeg");
 }
 
 .nv016-foto-36 {
-  background-image: url("assets/new-ville-417m/foto-36.jpeg");
+  background-image: url("ativos/new-ville-417m/foto-36.jpeg");
 }
 
 .nv017-foto-02 {
-  background-image: url("assets/nova-jaguari-153m/foto-02.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-02.jpeg");
 }
 
 .nv017-foto-04 {
-  background-image: url("assets/nova-jaguari-153m/foto-04.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-04.jpeg");
 }
 
 .nv017-foto-05 {
-  background-image: url("assets/nova-jaguari-153m/foto-05.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-05.jpeg");
 }
 
 .nv017-foto-06 {
-  background-image: url("assets/nova-jaguari-153m/foto-06.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-06.jpeg");
 }
 
 .nv017-foto-07 {
-  background-image: url("assets/nova-jaguari-153m/foto-07.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-07.jpeg");
 }
 
 .nv017-foto-08 {
-  background-image: url("assets/nova-jaguari-153m/foto-08.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-08.jpeg");
 }
 
 .nv017-foto-09 {
-  background-image: url("assets/nova-jaguari-153m/foto-09.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-09.jpeg");
 }
 
 .nv017-foto-10 {
-  background-image: url("assets/nova-jaguari-153m/foto-10.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-10.jpeg");
 }
 
 .nv017-foto-11 {
-  background-image: url("assets/nova-jaguari-153m/foto-11.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-11.jpeg");
 }
 
 .nv017-foto-13 {
-  background-image: url("assets/nova-jaguari-153m/foto-13.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-13.jpeg");
 }
 
 .nv017-foto-15 {
-  background-image: url("assets/nova-jaguari-153m/foto-15.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-15.jpeg");
 }
 
 .nv017-foto-16 {
-  background-image: url("assets/nova-jaguari-153m/foto-16.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-16.jpeg");
 }
 
 .nv017-foto-17 {
-  background-image: url("assets/nova-jaguari-153m/foto-17.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-17.jpeg");
 }
 
 .nv017-foto-18 {
-  background-image: url("assets/nova-jaguari-153m/foto-18.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-18.jpeg");
 }
 
 .nv017-foto-19 {
-  background-image: url("assets/nova-jaguari-153m/foto-19.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-19.jpeg");
 }
 
 .nv017-foto-20 {
-  background-image: url("assets/nova-jaguari-153m/foto-20.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-20.jpeg");
 }
 
 .nv017-foto-21 {
-  background-image: url("assets/nova-jaguari-153m/foto-21.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-21.jpeg");
 }
 
 .nv017-foto-22 {
-  background-image: url("assets/nova-jaguari-153m/foto-22.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-22.jpeg");
 }
 
 .nv017-foto-23 {
-  background-image: url("assets/nova-jaguari-153m/foto-23.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-23.jpeg");
 }
 
 .nv017-foto-24 {
-  background-image: url("assets/nova-jaguari-153m/foto-24.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-24.jpeg");
 }
 
 .nv017-foto-25 {
-  background-image: url("assets/nova-jaguari-153m/foto-25.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-25.jpeg");
 }
 
 .nv017-foto-26 {
-  background-image: url("assets/nova-jaguari-153m/foto-26.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-26.jpeg");
 }
 
 .nv017-foto-27 {
-  background-image: url("assets/nova-jaguari-153m/foto-27.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-27.jpeg");
 }
 
 .nv017-foto-28 {
-  background-image: url("assets/nova-jaguari-153m/foto-28.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-28.jpeg");
 }
 
 .nv017-foto-29 {
-  background-image: url("assets/nova-jaguari-153m/foto-29.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-29.jpeg");
 }
 
 .nv017-foto-30 {
-  background-image: url("assets/nova-jaguari-153m/foto-30.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-30.jpeg");
 }
 
 .nv017-foto-31 {
-  background-image: url("assets/nova-jaguari-153m/foto-31.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-31.jpeg");
 }
 
 .nv017-foto-32 {
-  background-image: url("assets/nova-jaguari-153m/foto-32.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-32.jpeg");
 }
 
 .nv017-foto-33 {
-  background-image: url("assets/nova-jaguari-153m/foto-33.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-33.jpeg");
 }
 
 .nv017-foto-34 {
-  background-image: url("assets/nova-jaguari-153m/foto-34.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-34.jpeg");
 }
 
 .nv017-foto-35 {
-  background-image: url("assets/nova-jaguari-153m/foto-35.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-35.jpeg");
 }
 
 .nv017-foto-36 {
-  background-image: url("assets/nova-jaguari-153m/foto-36.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-36.jpeg");
 }
 
 .nv017-foto-37 {
-  background-image: url("assets/nova-jaguari-153m/foto-37.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-37.jpeg");
 }
 
 .nv017-foto-38 {
-  background-image: url("assets/nova-jaguari-153m/foto-38.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-38.jpeg");
 }
 
 .nv017-foto-39 {
-  background-image: url("assets/nova-jaguari-153m/foto-39.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-39.jpeg");
 }
 
 .nv017-foto-40 {
-  background-image: url("assets/nova-jaguari-153m/foto-40.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-40.jpeg");
 }
 
 .nv017-foto-41 {
-  background-image: url("assets/nova-jaguari-153m/foto-41.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-41.jpeg");
 }
 
 .nv017-foto-44 {
-  background-image: url("assets/nova-jaguari-153m/foto-44.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-44.jpeg");
 }
 
 .nv017-foto-45 {
-  background-image: url("assets/nova-jaguari-153m/foto-45.jpeg");
+  background-image: url("ativos/nova-jaguari-153m/foto-45.jpeg");
 }
 
 .nv016-fachada-jardim {
-  background-image: url("assets/new-ville-locacao-venda/fachada-jardim.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/fachada-jardim.jpeg");
 }
 
 .nv016-fachada-principal {
-  background-image: url("assets/new-ville-locacao-venda/fachada-principal.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/fachada-principal.jpeg");
 }
 
 .nv016-piscina-cascata {
-  background-image: url("assets/new-ville-locacao-venda/piscina-cascata.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/piscina-cascata.jpeg");
 }
 
 .nv016-area-gourmet-piscina {
-  background-image: url("assets/new-ville-locacao-venda/area-gourmet-piscina.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/area-gourmet-piscina.jpeg");
 }
 
 .nv016-spa {
-  background-image: url("assets/new-ville-locacao-venda/spa.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/spa.jpeg");
 }
 
 .nv016-churrasqueira {
-  background-image: url("assets/new-ville-locacao-venda/churrasqueira.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/churrasqueira.jpeg");
 }
 
 .nv016-sala-jantar {
-  background-image: url("assets/new-ville-locacao-venda/sala-jantar.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/sala-jantar.jpeg");
 }
 
 .nv016-sala-ampla {
-  background-image: url("assets/new-ville-locacao-venda/sala-ampla.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/sala-ampla.jpeg");
 }
 
 .nv016-sala-varanda {
-  background-image: url("assets/new-ville-locacao-venda/sala-varanda.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/sala-varanda.jpeg");
 }
 
 .nv016-cozinha {
-  background-image: url("assets/new-ville-locacao-venda/cozinha.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/cozinha.jpeg");
 }
 
 .nv016-cozinha-armarios {
-  background-image: url("assets/new-ville-locacao-venda/cozinha-armarios.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/cozinha-armarios.jpeg");
 }
 
 .nv016-suite-master {
-  background-image: url("assets/new-ville-locacao-venda/suite-master.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/suite-master.jpeg");
 }
 
 .nv016-closet-master {
-  background-image: url("assets/new-ville-locacao-venda/closet-master.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/closet-master.jpeg");
 }
 
 .nv016-banheiro-master {
-  background-image: url("assets/new-ville-locacao-venda/banheiro-master.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/banheiro-master.jpeg");
 }
 
 .nv016-dormitorio-escritorio {
-  background-image: url("assets/new-ville-locacao-venda/dormitorio-escritorio.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/dormitorio-escritorio.jpeg");
 }
 
 .nv016-dormitorio-ar {
-  background-image: url("assets/new-ville-locacao-venda/dormitorio-ar.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/dormitorio-ar.jpeg");
 }
 
 .nv016-dormitorio-armarios {
-  background-image: url("assets/new-ville-locacao-venda/dormitorio-armarios.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/dormitorio-armarios.jpeg");
 }
 
 .nv016-dormitorio-planejado {
-  background-image: url("assets/new-ville-locacao-venda/dormitorio-planejado.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/dormitorio-planejado.jpeg");
 }
 
 .nv016-vista-sacada {
-  background-image: url("assets/new-ville-locacao-venda/vista-sacada.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/vista-sacada.jpeg");
 }
 
 .nv016-escada {
-  background-image: url("assets/new-ville-locacao-venda/escada.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/escada.jpeg");
 }
 
 .nv016-vista-piscina-superior {
-  background-image: url("assets/new-ville-locacao-venda/vista-piscina-superior.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/vista-piscina-superior.jpeg");
 }
 
 .nv016-piscina-lateral {
-  background-image: url("assets/new-ville-locacao-venda/piscina-lateral.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/piscina-lateral.jpeg");
 }
 
 .nv016-piscina-sol {
-  background-image: url("assets/new-ville-locacao-venda/piscina-sol.jpeg");
+  background-image: url("ativos/new-ville-locacao-venda/piscina-sol.jpeg");
 }
 
 .terreno-new-ville-clube-mata {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-mata.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-mata.jpeg");
 }
 
 .terreno-new-ville-clube-frente {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-frente.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-frente.jpeg");
 }
 
 .terreno-new-ville-clube-rua {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-rua-clube.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-rua-clube.jpeg");
 }
 
 .terreno-new-ville-clube-declive {
-  background-image: url("assets/terreno-new-ville-rua-clube/terreno-declive.jpeg");
+  background-image: url("ativos/terreno-new-ville-rua-clube/terreno-declive.jpeg");
 }
 
 .terreno-new-ville-vista {
-  background-image: url("assets/terreno-new-ville/terreno-vista.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-vista.jpeg");
 }
 
 .terreno-new-ville-frente {
-  background-image: url("assets/terreno-new-ville/terreno-frente.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-frente.jpeg");
 }
 
 .terreno-new-ville-rua {
-  background-image: url("assets/terreno-new-ville/terreno-rua.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-rua.jpeg");
 }
 
 .terreno-new-ville-declive {
-  background-image: url("assets/terreno-new-ville/terreno-declive.jpeg");
+  background-image: url("ativos/terreno-new-ville/terreno-declive.jpeg");
 }
 
 .terreno-new-ville-projeto-fachada {
-  background-image: url("assets/terreno-new-ville/projeto-fachada.jpeg");
+  background-image: url("ativos/terreno-new-ville/projeto-fachada.jpeg");
 }
 
 .terreno-new-ville-projeto-frontal {
-  background-image: url("assets/terreno-new-ville/projeto-frontal.jpeg");
+  background-image: url("ativos/terreno-new-ville/projeto-frontal.jpeg");
 }
 
 .terreno-new-ville-projeto-lazer {
-  background-image: url("assets/terreno-new-ville/projeto-lazer.jpeg");
+  background-image: url("ativos/terreno-new-ville/projeto-lazer.jpeg");
 }
 
 .new-ville-1700-fachada {
-  background-image: url("assets/new-ville-1700/fachada.jpeg");
+  background-image: url("ativos/new-ville-1700/fachada.jpeg");
 }
 
 .new-ville-1700-area-lazer-piscina {
-  background-image: url("assets/new-ville-1700/area-lazer-piscina.jpeg");
+  background-image: url("ativos/new-ville-1700/area-lazer-piscina.jpeg");
 }
 
 .new-ville-1700-piscina-vista {
-  background-image: url("assets/new-ville-1700/piscina-vista.jpeg");
+  background-image: url("ativos/new-ville-1700/piscina-vista.jpeg");
 }
 
 .new-ville-1700-gourmet-churrasqueira {
-  background-image: url("assets/new-ville-1700/gourmet-churrasqueira.jpeg");
+  background-image: url("ativos/new-ville-1700/gourmet-churrasqueira.jpeg");
 }
 
 .new-ville-1700-varanda-gourmet {
-  background-image: url("assets/new-ville-1700/varanda-gourmet.jpeg");
+  background-image: url("ativos/new-ville-1700/varanda-gourmet.jpeg");
 }
 
 .new-ville-1700-sala-estar {
-  background-image: url("assets/new-ville-1700/sala-estar.jpeg");
+  background-image: url("ativos/new-ville-1700/sala-estar.jpeg");
 }
 
 .new-ville-1700-sala-jantar {
-  background-image: url("assets/new-ville-1700/sala-jantar.jpeg");
+  background-image: url("ativos/new-ville-1700/sala-jantar.jpeg");
 }
 
 .new-ville-1700-cozinha-planejada {
-  background-image: url("assets/new-ville-1700/cozinha-planejada.jpeg");
+  background-image: url("ativos/new-ville-1700/cozinha-planejada.jpeg");
 }
 
 .new-ville-1700-hall-entrada {
-  background-image: url("assets/new-ville-1700/hall-entrada.jpeg");
+  background-image: url("ativos/new-ville-1700/hall-entrada.jpeg");
 }
 
 .new-ville-1700-escritorio {
-  background-image: url("assets/new-ville-1700/escritorio.jpeg");
+  background-image: url("ativos/new-ville-1700/escritorio.jpeg");
 }
 
 .new-ville-1700-lavabo {
-  background-image: url("assets/new-ville-1700/lavabo.jpeg");
+  background-image: url("ativos/new-ville-1700/lavabo.jpeg");
 }
 
 .new-ville-1700-suite-master {
-  background-image: url("assets/new-ville-1700/suite-master.jpeg");
+  background-image: url("ativos/new-ville-1700/suite-master.jpeg");
 }
 
 .new-ville-1700-banheiro-master {
-  background-image: url("assets/new-ville-1700/banheiro-master.jpeg");
+  background-image: url("ativos/new-ville-1700/banheiro-master.jpeg");
 }
 
 .new-ville-1700-closet {
-  background-image: url("assets/new-ville-1700/closet.jpeg");
+  background-image: url("ativos/new-ville-1700/closet.jpeg");
 }
 
 .new-ville-1700-banheiro-social {
-  background-image: url("assets/new-ville-1700/banheiro-social.jpeg");
+  background-image: url("ativos/new-ville-1700/banheiro-social.jpeg");
 }
 
 .new-ville-1700-dormitorio-apoio {
-  background-image: url("assets/new-ville-1700/dormitorio-apoio.jpeg");
+  background-image: url("ativos/new-ville-1700/dormitorio-apoio.jpeg");
 }
 
 .new-ville-1700-lavanderia {
-  background-image: url("assets/new-ville-1700/lavanderia.jpeg");
+  background-image: url("ativos/new-ville-1700/lavanderia.jpeg");
 }
 
 .new-ville-1700-lavabo-inferior {
-  background-image: url("assets/new-ville-1700/lavabo-inferior.jpeg");
+  background-image: url("ativos/new-ville-1700/lavabo-inferior.jpeg");
 }
 
 
 .new-ville-fachada {
-  background-image: url("assets/new-ville/fachada.jpeg");
+  background-image: url("ativos/new-ville/fachada.jpeg");
 }
 
 .new-ville-quintal-fachada {
-  background-image: url("assets/new-ville/quintal-fachada.jpeg");
+  background-image: url("ativos/new-ville/quintal-fachada.jpeg");
 }
 
 .new-ville-quintal-gramado {
-  background-image: url("assets/new-ville/quintal-gramado.jpeg");
+  background-image: url("ativos/new-ville/quintal-gramado.jpeg");
 }
 
 .new-ville-sala-lareira {
-  background-image: url("assets/new-ville/sala-lareira.jpeg");
+  background-image: url("ativos/new-ville/sala-lareira.jpeg");
 }
 
 .new-ville-sala-jantar {
-  background-image: url("assets/new-ville/sala-jantar.jpeg");
+  background-image: url("ativos/new-ville/sala-jantar.jpeg");
 }
 
 .new-ville-sala-jantar-cristal {
-  background-image: url("assets/new-ville/sala-jantar-cristal.jpeg");
+  background-image: url("ativos/new-ville/sala-jantar-cristal.jpeg");
 }
 
 .new-ville-sala-tv {
-  background-image: url("assets/new-ville/sala-tv.jpeg");
+  background-image: url("ativos/new-ville/sala-tv.jpeg");
 }
 
 .new-ville-cozinha {
-  background-image: url("assets/new-ville/cozinha-planejada.jpeg");
+  background-image: url("ativos/new-ville/cozinha-planejada.jpeg");
 }
 
 .new-ville-suite-varanda {
-  background-image: url("assets/new-ville/suite-varanda.jpeg");
+  background-image: url("ativos/new-ville/suite-varanda.jpeg");
 }
 
 .new-ville-sala-tv-varanda {
-  background-image: url("assets/new-ville/sala-tv-varanda.jpeg");
+  background-image: url("ativos/new-ville/sala-tv-varanda.jpeg");
 }
 
 .new-ville-varanda-vista {
-  background-image: url("assets/new-ville/varanda-vista.jpeg");
+  background-image: url("ativos/new-ville/varanda-vista.jpeg");
 }
 
 .new-ville-suite-mobiliada {
-  background-image: url("assets/new-ville/suite-mobiliada.jpeg");
+  background-image: url("ativos/new-ville/suite-mobiliada.jpeg");
 }
 
 .new-ville-suite-armarios {
-  background-image: url("assets/new-ville/suite-armarios.jpeg");
+  background-image: url("ativos/new-ville/suite-armarios.jpeg");
 }
 
 .new-ville-suite-ampla {
-  background-image: url("assets/new-ville/suite-ampla.jpeg");
+  background-image: url("ativos/new-ville/suite-ampla.jpeg");
 }
 
 .new-ville-closet {
-  background-image: url("assets/new-ville/closet.jpeg");
+  background-image: url("ativos/new-ville/closet.jpeg");
 }
 
 .new-ville-banheiro-master {
-  background-image: url("assets/new-ville/banheiro-master.jpeg");
+  background-image: url("ativos/new-ville/banheiro-master.jpeg");
 }
 
 .new-ville-banheiro-suite {
-  background-image: url("assets/new-ville/banheiro-suite.jpeg");
+  background-image: url("ativos/new-ville/banheiro-suite.jpeg");
 }
 
 .new-ville-escada-granito {
-  background-image: url("assets/new-ville/escada-granito.jpeg");
+  background-image: url("ativos/new-ville/escada-granito.jpeg");
 }
 
 .new-ville-escada {
-  background-image: url("assets/new-ville/escada.jpeg");
+  background-image: url("ativos/new-ville/escada.jpeg");
 }
 
 .new-ville-suite-escritorio {
-  background-image: url("assets/new-ville/suite-escritorio.jpeg");
+  background-image: url("ativos/new-ville/suite-escritorio.jpeg");
 }
 
 .vila-formosa-fachada {
-  background-image: url("assets/vila-formosa/fachada-principal.jpeg");
+  background-image: url("ativos/vila-formosa/fachada-principal.jpeg");
 }
 
 .vila-formosa-garagem {
-  background-image: url("assets/vila-formosa/garagem-coberta.jpeg");
+  background-image: url("ativos/vila-formosa/garagem-coberta.jpeg");
 }
 
 .vila-formosa-sala {
-  background-image: url("assets/vila-formosa/sala-principal.jpeg");
+  background-image: url("ativos/vila-formosa/sala-principal.jpeg");
 }
 
 .vila-formosa-jantar {
-  background-image: url("assets/vila-formosa/sala-jantar.jpeg");
+  background-image: url("ativos/vila-formosa/sala-jantar.jpeg");
 }
 
 .vila-formosa-sala-ampla {
-  background-image: url("assets/vila-formosa/sala-ampla.jpeg");
+  background-image: url("ativos/vila-formosa/sala-ampla.jpeg");
 }
 
 .vila-formosa-cozinha {
-  background-image: url("assets/vila-formosa/cozinha-planejada.jpeg");
+  background-image: url("ativos/vila-formosa/cozinha-planejada.jpeg");
 }
 
 .vila-formosa-bancada {
-  background-image: url("assets/vila-formosa/cozinha-bancada.jpeg");
+  background-image: url("ativos/vila-formosa/cozinha-bancada.jpeg");
 }
 
 .vila-formosa-copa {
-  background-image: url("assets/vila-formosa/copa-integrada.jpeg");
+  background-image: url("ativos/vila-formosa/copa-integrada.jpeg");
 }
 
 .vila-formosa-gourmet {
-  background-image: url("assets/vila-formosa/gourmet-churrasqueira.jpeg");
+  background-image: url("ativos/vila-formosa/gourmet-churrasqueira.jpeg");
 }
 
 .vila-formosa-area-gourmet {
-  background-image: url("assets/vila-formosa/area-gourmet.jpeg");
+  background-image: url("ativos/vila-formosa/area-gourmet.jpeg");
 }
 
 .vila-formosa-varanda {
-  background-image: url("assets/vila-formosa/varanda-vista.jpeg");
+  background-image: url("ativos/vila-formosa/varanda-vista.jpeg");
 }
 
 .vila-formosa-suite {
-  background-image: url("assets/vila-formosa/suite-planejada.jpeg");
+  background-image: url("ativos/vila-formosa/suite-planejada.jpeg");
 }
 
 .vila-formosa-suite-armarios {
-  background-image: url("assets/vila-formosa/suite-armarios.jpeg");
+  background-image: url("ativos/vila-formosa/suite-armarios.jpeg");
 }
 
 .vila-formosa-dormitorio {
-  background-image: url("assets/vila-formosa/dormitorio.jpeg");
+  background-image: url("ativos/vila-formosa/dormitorio.jpeg");
 }
 
 .vila-formosa-escritorio {
-  background-image: url("assets/vila-formosa/escritorio.jpeg");
+  background-image: url("ativos/vila-formosa/escritorio.jpeg");
 }
 
 .vila-formosa-banheiro {
-  background-image: url("assets/vila-formosa/banheiro-master.jpeg");
+  background-image: url("ativos/vila-formosa/banheiro-master.jpeg");
 }
 
 .vila-formosa-hidro {
-  background-image: url("assets/vila-formosa/hidromassagem.jpeg");
+  background-image: url("ativos/vila-formosa/hidromassagem.jpeg");
 }
 
 .vila-formosa-escada {
-  background-image: url("assets/vila-formosa/escada-caracol.jpeg");
+  background-image: url("ativos/vila-formosa/escada-caracol.jpeg");
 }
 
 .vila-formosa-sotao {
-  background-image: url("assets/vila-formosa/sotao-sala.jpeg");
+  background-image: url("ativos/vila-formosa/sotao-sala.jpeg");
 }
 
 .santa-fachada-dia {
-  background-image: url("assets/santa-ana/fachada-dia.jpeg");
+  background-image: url("ativos/santa-ana/fachada-dia.jpeg");
 }
 
 .santa-fachada-noite {
-  background-image: url("assets/santa-ana/fachada-noite.jpeg");
+  background-image: url("ativos/santa-ana/fachada-noite.jpeg");
 }
 
 .santa-piscina-01 {
-  background-image: url("assets/santa-ana/piscina-01.jpeg");
+  background-image: url("ativos/santa-ana/piscina-01.jpeg");
 }
 
 .santa-piscina-02 {
-  background-image: url("assets/santa-ana/piscina-02.jpeg");
+  background-image: url("ativos/santa-ana/piscina-02.jpeg");
 }
 
 .santa-sala-01 {
-  background-image: url("assets/santa-ana/sala-integrada-01.jpeg");
+  background-image: url("ativos/santa-ana/sala-integrada-01.jpeg");
 }
 
 .santa-sala-02 {
-  background-image: url("assets/santa-ana/sala-integrada-02.jpeg");
+  background-image: url("ativos/santa-ana/sala-integrada-02.jpeg");
 }
 
 .santa-escada-elevador {
-  background-image: url("assets/santa-ana/escada-elevador.jpeg");
+  background-image: url("ativos/santa-ana/escada-elevador.jpeg");
 }
 
 .santa-elevador {
-  background-image: url("assets/santa-ana/elevador.jpeg");
+  background-image: url("ativos/santa-ana/elevador.jpeg");
 }
 
 .santa-corredor {
-  background-image: url("assets/santa-ana/corredor-iluminado.jpeg");
+  background-image: url("ativos/santa-ana/corredor-iluminado.jpeg");
 }
 
 .santa-suite-01 {
-  background-image: url("assets/santa-ana/suite-01.jpeg");
+  background-image: url("ativos/santa-ana/suite-01.jpeg");
 }
 
 .santa-suite-02 {
-  background-image: url("assets/santa-ana/suite-02.jpeg");
+  background-image: url("ativos/santa-ana/suite-02.jpeg");
 }
 
 .santa-banheira {
-  background-image: url("assets/santa-ana/banheira-master.jpeg");
+  background-image: url("ativos/santa-ana/banheira-master.jpeg");
 }
 
 .santa-banheiro {
-  background-image: url("assets/santa-ana/banheiro-master.jpeg");
+  background-image: url("ativos/santa-ana/banheiro-master.jpeg");
 }
 
 .santa-lavabo {
-  background-image: url("assets/santa-ana/lavabo.jpeg");
+  background-image: url("ativos/santa-ana/lavabo.jpeg");
 }
 
 .noah-fachada-frontal {
-  background-image: url("assets/casa-noah/fachada-frontal.jpeg");
+  background-image: url("ativos/casa-noah/fachada-frontal.jpeg");
 }
 
 .noah-piscina {
-  background-image: url("assets/casa-noah/piscina-cascata.jpeg");
+  background-image: url("ativos/casa-noah/piscina-cascata.jpeg");
 }
 
 .noah-area-gourmet {
-  background-image: url("assets/casa-noah/area-gourmet.jpeg");
+  background-image: url("ativos/casa-noah/area-gourmet.jpeg");
 }
 
 .noah-sala-externa {
-  background-image: url("assets/casa-noah/sala-externa.jpeg");
+  background-image: url("ativos/casa-noah/sala-externa.jpeg");
 }
 
 .noah-gourmet-integrado {
-  background-image: url("assets/casa-noah/gourmet-integrado.jpeg");
+  background-image: url("ativos/casa-noah/gourmet-integrado.jpeg");
 }
 
 .noah-fachada-lateral {
-  background-image: url("assets/casa-noah/fachada-lateral.jpeg");
+  background-image: url("ativos/casa-noah/fachada-lateral.jpeg");
 }
 
 .noah-sala-madeira {
-  background-image: url("assets/casa-noah/sala-madeira.jpeg");
+  background-image: url("ativos/casa-noah/sala-madeira.jpeg");
 }
 
 .noah-cozinha-ilha {
-  background-image: url("assets/casa-noah/cozinha-ilha.jpeg");
+  background-image: url("ativos/casa-noah/cozinha-ilha.jpeg");
 }
 
 .noah-jantar {
-  background-image: url("assets/casa-noah/jantar-integrado.jpeg");
+  background-image: url("ativos/casa-noah/jantar-integrado.jpeg");
 }
 
 .noah-adega {
-  background-image: url("assets/casa-noah/adega-gourmet.jpeg");
+  background-image: url("ativos/casa-noah/adega-gourmet.jpeg");
 }
 
 .noah-copa {
-  background-image: url("assets/casa-noah/copa-planejada.jpeg");
+  background-image: url("ativos/casa-noah/copa-planejada.jpeg");
 }
 
 .noah-cozinha-vista {
-  background-image: url("assets/casa-noah/cozinha-vista.jpeg");
+  background-image: url("ativos/casa-noah/cozinha-vista.jpeg");
 }
 
 .noah-living-madeira {
-  background-image: url("assets/casa-noah/living-madeira.jpeg");
+  background-image: url("ativos/casa-noah/living-madeira.jpeg");
 }
 
 .taina-fachada {
-  background-image: url("assets/casa-taina-vila-jaguari/fachada.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/fachada.jpeg");
 }
 
 .taina-fachada-protegida {
-  background-image: url("assets/casa-taina-vila-jaguari/fachada-portao-protegida.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/fachada-portao-protegida.jpeg");
 }
 
 .taina-gourmet-principal {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/gourmet-piscina-principal.jpeg");
 }
 
 .taina-gourmet-ampla {
-  background-image: url("assets/casa-taina-vila-jaguari/gourmet-piscina-ampla.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/gourmet-piscina-ampla.jpeg");
 }
 
 .taina-cozinha {
-  background-image: url("assets/casa-taina-vila-jaguari/cozinha-integrada.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/cozinha-integrada.jpeg");
 }
 
 .taina-sala-cozinha {
-  background-image: url("assets/casa-taina-vila-jaguari/sala-cozinha.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/sala-cozinha.jpeg");
 }
 
 .taina-escada {
-  background-image: url("assets/casa-taina-vila-jaguari/escada.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/escada.jpeg");
 }
 
 .taina-suite-varanda {
-  background-image: url("assets/casa-taina-vila-jaguari/suite-varanda.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/suite-varanda.jpeg");
 }
 
 .taina-dormitorio-ar {
-  background-image: url("assets/casa-taina-vila-jaguari/dormitorio-ar.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/dormitorio-ar.jpeg");
 }
 
 .taina-banheiro {
-  background-image: url("assets/casa-taina-vila-jaguari/banheiro-superior.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/banheiro-superior.jpeg");
 }
 
 .taina-lavabo {
-  background-image: url("assets/casa-taina-vila-jaguari/lavabo.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/lavabo.jpeg");
 }
 
 .taina-piscina-vista {
-  background-image: url("assets/casa-taina-vila-jaguari/piscina-vista-mata.jpeg");
+  background-image: url("ativos/casa-taina-vila-jaguari/piscina-vista-mata.jpeg");
 }
 
 .property-detail {
@@ -2599,3 +2599,4 @@ dd {
     min-height: 260px;
   }
 }
+
