@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simula&ccedil;&atilde;o de Financiamento | Napole&atilde;o Viana e Akylla Marques</title>
+    <meta
+      name="description"
+      content="Area para simulacao de financiamento imobiliario, consulta de credito e direcionamento para links oficiais de bancos parceiros e instituicoes financeiras."
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#inicio" aria-label="Napole&atilde;o Viana e Akylla Marques">
+        <span class="brand-mark">NV</span>
+        <span>
+          <strong>Napole&atilde;o Viana e Akylla Marques</strong>
+          <small>Napole&atilde;o Viana CRECI 228.582-F | Akylla Marques CRECI 228.155-F</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="catalogo.html">Im&oacute;veis</a>
+        <a href="projetos-na-planta.html">Na Planta</a>
+        <a href="financiamento.html">Financiamento</a>
+        <a href="index.html#vender">Propriet&aacute;rios</a>
+        <a href="index.html#regioes">Regi&otilde;es</a>
+        <a href="index.html#blog">Blog</a>
+        <a href="index.html#sobre">Sobre</a>
+      </nav>
+      <a class="header-cta" href="https://wa.me/5511948187023?text=Ol%C3%A1,%20Napole%C3%A3o.%20quero%20orienta%C3%A7%C3%A3o%20sobre%20financiamento%20imobili%C3%A1rio." target="_blank" rel="noreferrer">
+        Falar no WhatsApp
+      </a>
+    </header>
+
+    <main>
+      <section class="finance-hero">
+        <div>
+          <p class="eyebrow">Cr&eacute;dito imobili&aacute;rio</p>
+          <h1>Simule seu financiamento e avance com mais clareza.</h1>
+          <p>
+            Esta &aacute;rea vai reunir links oficiais de simula&ccedil;&atilde;o dos bancos e um canal direto para orienta&ccedil;&atilde;o antes da proposta.
+          </p>
+        </div>
+      </section>
+
+      <section class="section finance-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Simuladores</p>
+            <h2>Links de bancos e institui&ccedil;&otilde;es</h2>
+            <p class="section-intro">Os bot&otilde;es oficiais ser&atilde;o inseridos aqui assim que voc&ecirc; enviar os links corretos de cada banco.</p>
+          </div>
+        </div>
+
+        <div class="finance-grid">
+          <article>
+            <span>Banco</span>
+            <h3>Caixa</h3>
+            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+          </article>
+          <article>
+            <span>Banco</span>
+            <h3>Ita&uacute;</h3>
+            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+          </article>
+          <article>
+            <span>Banco</span>
+            <h3>Bradesco</h3>
+            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+          </article>
+          <article>
+            <span>Banco</span>
+            <h3>Santander</h3>
+            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="seller-section finance-lead">
+        <div class="seller-copy">
+          <p class="section-kicker">Antes da proposta</p>
+          <h2>Quer ajuda para entender seu cr&eacute;dito?</h2>
+          <p>
+            Envie uma mensagem com o valor aproximado do im&oacute;vel e sua entrada. A equipe orienta os pr&oacute;ximos passos e direciona para a melhor simula&ccedil;&atilde;o.
+          </p>
+        </div>
+        <form class="lead-form intent-form" id="financeIntentForm">
+          <p class="form-title">Solicitar orienta&ccedil;&atilde;o</p>
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome" />
+          </label>
+          <label>
+            Valor aproximado do im&oacute;vel
+            <input type="text" name="valor" placeholder="Ex.: R$ 990.000" />
+          </label>
+          <label>
+            Valor de entrada
+            <input type="text" name="entrada" placeholder="Ex.: R$ 250.000" />
+          </label>
+          <label>
+            Observa&ccedil;&atilde;o
+            <textarea name="observacao" rows="4" placeholder="Conte se ja tem banco, renda aprovada, FGTS ou prazo para compra."></textarea>
+          </label>
+          <button class="btn primary" type="submit">Enviar pelo WhatsApp</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>Napole&atilde;o Viana & Akylla Marques</strong>
+      <span>Napole&atilde;o Viana CRECI 228.582-F</span>
+      <span>Akylla Marques CRECI 228.155-F</span>
+    </footer>
+
+    <script>
+      document.getElementById("financeIntentForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        const data = new FormData(event.currentTarget);
+        const message = [
+          "Ola, Napoleao. Quero orientacao sobre financiamento imobiliario.",
+          "",
+          "Nome: " + (data.get("nome") || ""),
+          "Valor aproximado do imovel: " + (data.get("valor") || ""),
+          "Valor de entrada: " + (data.get("entrada") || ""),
+          "Observacoes: " + (data.get("observacao") || "")
+        ].join("\n");
+
+        window.open("https://wa.me/5511948187023?text=" + encodeURIComponent(message), "_blank", "noreferrer");
+      });
+    </script>
+  </body>
+</html>

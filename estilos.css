@@ -1090,6 +1090,99 @@ dd {
   background: var(--green);
 }
 
+.plant-hero,
+.finance-hero {
+  min-height: 560px;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(72px, 10vw, 136px) clamp(18px, 4vw, 58px);
+  color: var(--white);
+  background:
+    linear-gradient(105deg, rgba(6, 23, 41, 0.94), rgba(9, 33, 58, 0.52)),
+    url("assets/nova-jaguari-166m/foto-31.jpeg") center/cover;
+}
+
+.finance-hero {
+  background:
+    linear-gradient(105deg, rgba(6, 23, 41, 0.94), rgba(9, 33, 58, 0.5)),
+    url("assets/nova-jaguari-169m/foto-12.jpeg") center/cover;
+}
+
+.plant-hero div,
+.finance-hero div {
+  max-width: 940px;
+}
+
+.plant-hero h1,
+.finance-hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 6vw, 82px);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.plant-hero p:not(.eyebrow),
+.finance-hero p:not(.eyebrow) {
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 20px;
+}
+
+.opportunity-grid,
+.finance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.finance-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.opportunity-grid article,
+.finance-grid article {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, var(--white), #f5f9fc);
+  box-shadow: 0 18px 44px rgba(6, 23, 41, 0.07);
+}
+
+.opportunity-grid span,
+.finance-grid span {
+  display: block;
+  color: var(--blue-500);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.opportunity-grid h3,
+.finance-grid h3 {
+  margin: 10px 0;
+  color: var(--navy-950);
+  font-size: 22px;
+}
+
+.opportunity-grid p,
+.finance-grid p {
+  color: var(--muted);
+}
+
+.intent-form textarea {
+  width: 100%;
+  min-height: 112px;
+  resize: vertical;
+  border: 1px solid rgba(9, 33, 58, 0.12);
+  border-radius: 6px;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--navy-950);
+  background: var(--white);
+}
+
 .property-detail-hero {
   min-height: 520px;
   display: grid;
@@ -2676,8 +2769,13 @@ dd {
 
   .region-grid,
   .video-grid,
-  .trust-strip {
+  .trust-strip,
+  .finance-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .opportunity-grid {
+    grid-template-columns: 1fr;
   }
 
   .catalog-shell,
@@ -2738,8 +2836,14 @@ dd {
 
   .region-grid,
   .video-grid,
-  .trust-strip {
+  .trust-strip,
+  .finance-grid {
     grid-template-columns: 1fr;
+  }
+
+  .plant-hero,
+  .finance-hero {
+    min-height: 620px;
   }
 
   .property-image {
