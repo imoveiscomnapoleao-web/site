@@ -91,6 +91,14 @@
             <p class="result-label">Resultado da simula&ccedil;&atilde;o</p>
             <div class="result-grid">
               <article>
+                <span>Valor do im&oacute;vel</span>
+                <strong id="propertyAnalyzed">R$ 0</strong>
+              </article>
+              <article>
+                <span>Entrada informada</span>
+                <strong id="downPaymentAnalyzed">R$ 0</strong>
+              </article>
+              <article>
                 <span>Potencial estimado</span>
                 <strong id="buyingPower">R$ 0</strong>
               </article>
@@ -196,6 +204,10 @@
         return Number(String(value || "").replace(/\D/g, "")) || 0;
       }
 
+      function parseRate(value) {
+        return Number(String(value || "").replace(",", ".")) || 0;
+      }
+
       function formatMoney(value) {
         return value.toLocaleString("pt-BR", {
           style: "currency",
@@ -209,7 +221,7 @@
         const propertyValue = parseMoney(data.get("propertyValue"));
         const income = parseMoney(data.get("income"));
         const downPayment = parseMoney(data.get("downPayment"));
-        const annualRate = Number(data.get("annualRate")) || 0;
+        const annualRate = parseRate(data.get("annualRate"));
         const years = Number(data.get("term")) || 35;
         const months = years * 12;
         const monthlyRate = Math.pow(1 + annualRate / 100, 1 / 12) - 1;
@@ -217,14 +229,17 @@
         const requestedFinancing = Math.max(propertyValue - downPayment, 0);
         const maxFinancingByIncome = maxInstallment / ((1 / months) + monthlyRate);
         const financedValue = Math.max(Math.min(requestedFinancing, maxFinancingByIncome), 0);
+        const missingValue = Math.max(requestedFinancing - financedValue, 0);
         const amortization = months > 0 ? financedValue / months : 0;
         const firstPayment = amortization + financedValue * monthlyRate;
         const lastPayment = amortization + amortization * monthlyRate;
         const buyingPower = downPayment + maxFinancingByIncome;
         const note = financedValue < requestedFinancing
-          ? "Pela regra de 30% da renda, talvez seja necessario aumentar a entrada, ajustar prazo ou consultar outra condicao."
+          ? "Neste cenario, a renda informada limita o financiamento. Para este imovel, faltariam cerca de " + formatMoney(missingValue) + " entre entrada, aprovacao de credito ou outra condicao."
           : "A simulacao ficou dentro da base de comprometimento de renda usada no calculo.";
 
+        document.getElementById("propertyAnalyzed").textContent = formatMoney(propertyValue);
+        document.getElementById("downPaymentAnalyzed").textContent = formatMoney(downPayment);
         document.getElementById("buyingPower").textContent = formatMoney(buyingPower);
         document.getElementById("financedValue").textContent = formatMoney(financedValue);
         document.getElementById("firstPayment").textContent = formatMoney(firstPayment);
@@ -258,6 +273,7 @@
       });
 
       simulatorForm.querySelectorAll("input").forEach(function (input) {
+        input.addEventListener("input", calculateSimulation);
         input.addEventListener("change", calculateSimulation);
       });
 
