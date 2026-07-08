@@ -1137,7 +1137,7 @@ dd {
 }
 
 .finance-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .opportunity-grid article,
@@ -1169,6 +1169,129 @@ dd {
 .opportunity-grid p,
 .finance-grid p {
   color: var(--muted);
+}
+
+.simulator-section {
+  background: var(--ice);
+}
+
+.simulator-shell {
+  display: grid;
+  grid-template-columns: minmax(300px, 470px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.simulator-form,
+.simulator-result {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 18px 44px rgba(6, 23, 41, 0.08);
+}
+
+.simulator-form {
+  display: grid;
+  gap: 16px;
+}
+
+.simulator-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--navy-950);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.simulator-form input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid rgba(9, 33, 58, 0.14);
+  border-radius: 6px;
+  padding: 12px 14px;
+  color: var(--navy-950);
+  font: inherit;
+  font-weight: 700;
+  background: #f8fbfd;
+}
+
+.simulator-form small {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.range-field span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.range-field input {
+  padding: 0;
+  accent-color: var(--green);
+}
+
+.result-label {
+  margin: 0 0 18px;
+  color: var(--blue-500);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.result-grid article {
+  min-height: 112px;
+  padding: 18px;
+  border: 1px solid rgba(9, 33, 58, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f4f9fc);
+}
+
+.result-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.result-grid strong {
+  display: block;
+  margin-top: 10px;
+  color: var(--navy-950);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.simulation-note {
+  margin: 18px 0 0;
+  padding: 16px;
+  border-left: 4px solid var(--green);
+  border-radius: 6px;
+  color: #43566b;
+  background: #eef8f2;
+}
+
+.simulator-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.simulator-actions .btn.outline {
+  width: auto;
+  margin-top: 0;
 }
 
 .intent-form textarea {
@@ -2748,7 +2871,8 @@ dd {
   .intro-band,
   .about-section,
   .seller-section,
-  .video-section {
+  .video-section,
+  .simulator-shell {
     grid-template-columns: 1fr;
   }
 
@@ -2837,8 +2961,18 @@ dd {
   .region-grid,
   .video-grid,
   .trust-strip,
-  .finance-grid {
+  .finance-grid,
+  .result-grid {
     grid-template-columns: 1fr;
+  }
+
+  .simulator-form,
+  .simulator-result {
+    padding: 22px;
+  }
+
+  .simulator-actions {
+    display: grid;
   }
 
   .plant-hero,

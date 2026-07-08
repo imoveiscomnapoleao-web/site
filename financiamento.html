@@ -44,17 +44,86 @@
           <p class="eyebrow">Cr&eacute;dito imobili&aacute;rio</p>
           <h1>Simule seu financiamento e avance com mais clareza.</h1>
           <p>
-            Esta &aacute;rea vai reunir links oficiais de simula&ccedil;&atilde;o dos bancos e um canal direto para orienta&ccedil;&atilde;o antes da proposta.
+            Calcule uma base inicial, ajuste a taxa se j&aacute; tiver uma condi&ccedil;&atilde;o do banco e envie a simula&ccedil;&atilde;o para uma an&aacute;lise mais precisa.
           </p>
+        </div>
+      </section>
+
+      <section class="section simulator-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Simula&ccedil;&atilde;o estimativa</p>
+            <h2>Informe os dados para ter uma base de financiamento</h2>
+            <p class="section-intro">
+              A simula&ccedil;&atilde;o abaixo usa c&aacute;lculo aproximado pelo sistema SAC. Taxas, seguros, CET, aprova&ccedil;&atilde;o de cr&eacute;dito e regras do banco podem mudar. Para uma proposta real, solicite a confer&ecirc;ncia com nossa equipe.
+            </p>
+          </div>
+        </div>
+
+        <div class="simulator-shell">
+          <form class="simulator-form" id="financingSimulator">
+            <label>
+              Valor do im&oacute;vel
+              <input type="text" name="propertyValue" inputmode="numeric" value="990.000" aria-label="Valor do imovel" />
+            </label>
+            <label>
+              Renda bruta mensal
+              <input type="text" name="income" inputmode="numeric" value="14.000" aria-label="Renda bruta mensal" />
+            </label>
+            <label>
+              Entrada + FGTS
+              <input type="text" name="downPayment" inputmode="numeric" value="250.000" aria-label="Valor de entrada mais FGTS" />
+            </label>
+            <label>
+              Taxa anual estimada
+              <input type="number" name="annualRate" min="1" max="30" step="0.01" value="11.19" aria-label="Taxa anual estimada" />
+              <small>Voc&ecirc; pode trocar pela taxa informada pelo banco.</small>
+            </label>
+            <label class="range-field">
+              Prazo para pagamento
+              <span><strong id="termOutput">35</strong> anos</span>
+              <input type="range" name="term" min="3" max="35" value="35" />
+            </label>
+            <button class="btn primary" type="submit">Simular agora</button>
+          </form>
+
+          <div class="simulator-result" id="simulatorResult" aria-live="polite">
+            <p class="result-label">Resultado da simula&ccedil;&atilde;o</p>
+            <div class="result-grid">
+              <article>
+                <span>Potencial estimado</span>
+                <strong id="buyingPower">R$ 0</strong>
+              </article>
+              <article>
+                <span>Valor financiado</span>
+                <strong id="financedValue">R$ 0</strong>
+              </article>
+              <article>
+                <span>Primeira parcela</span>
+                <strong id="firstPayment">R$ 0</strong>
+              </article>
+              <article>
+                <span>&Uacute;ltima parcela</span>
+                <strong id="lastPayment">R$ 0</strong>
+              </article>
+            </div>
+            <p class="simulation-note" id="simulationNote">
+              Esta &eacute; uma base estimativa. Fale com nossa equipe para confirmar as condi&ccedil;&otilde;es atualizadas.
+            </p>
+            <div class="simulator-actions">
+              <a class="btn primary" id="sendSimulation" href="https://wa.me/5511948187023" target="_blank" rel="noreferrer">Enviar simula&ccedil;&atilde;o para consultor</a>
+              <a class="btn outline" href="catalogo.html">Buscar im&oacute;veis no cat&aacute;logo</a>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="section finance-section">
         <div class="section-heading">
           <div>
-            <p class="section-kicker">Simuladores</p>
-            <h2>Links de bancos e institui&ccedil;&otilde;es</h2>
-            <p class="section-intro">Os bot&otilde;es oficiais ser&atilde;o inseridos aqui assim que voc&ecirc; enviar os links corretos de cada banco.</p>
+            <p class="section-kicker">Simuladores oficiais</p>
+            <h2>Consulte tamb&eacute;m diretamente com os bancos</h2>
+            <p class="section-intro">Use os links oficiais para comparar condi&ccedil;&otilde;es. As taxas podem variar conforme perfil, renda, entrada, relacionamento com o banco e an&aacute;lise de cr&eacute;dito.</p>
           </div>
         </div>
 
@@ -62,22 +131,20 @@
           <article>
             <span>Banco</span>
             <h3>Caixa</h3>
-            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+            <p>Simulador habitacional oficial da Caixa para consultar uma base de cr&eacute;dito imobili&aacute;rio.</p>
+            <a class="btn outline" href="https://habitacao.caixa.gov.br/siopiweb-web/simulaOperacaoInternet.do?method=inicializarCasoUso&pk_campaign=habitacao&pk_kwd=direct&pk_source=redirect" target="_blank" rel="noreferrer">Abrir simulador</a>
           </article>
           <article>
             <span>Banco</span>
             <h3>Ita&uacute;</h3>
-            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
-          </article>
-          <article>
-            <span>Banco</span>
-            <h3>Bradesco</h3>
-            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+            <p>P&aacute;gina oficial de cr&eacute;dito imobili&aacute;rio do Ita&uacute; para simular e conhecer condi&ccedil;&otilde;es.</p>
+            <a class="btn outline" href="https://www.itau.com.br/emprestimos-financiamentos/credito-imobiliario" target="_blank" rel="noreferrer">Abrir simulador</a>
           </article>
           <article>
             <span>Banco</span>
             <h3>Santander</h3>
-            <p>Espa&ccedil;o reservado para o simulador oficial.</p>
+            <p>Ambiente oficial do Santander para iniciar uma simula&ccedil;&atilde;o de financiamento imobili&aacute;rio.</p>
+            <a class="btn outline" href="https://www.negociosimobiliarios.santander.com.br/negociosimobiliarios/#/dados-pessoais?goal=3&ic=lpcreditoimob" target="_blank" rel="noreferrer">Abrir simulador</a>
           </article>
         </div>
       </section>
@@ -120,6 +187,82 @@
     </footer>
 
     <script>
+      const simulatorForm = document.getElementById("financingSimulator");
+      const termInput = simulatorForm.querySelector('[name="term"]');
+      const termOutput = document.getElementById("termOutput");
+      const sendSimulation = document.getElementById("sendSimulation");
+
+      function parseMoney(value) {
+        return Number(String(value || "").replace(/\D/g, "")) || 0;
+      }
+
+      function formatMoney(value) {
+        return value.toLocaleString("pt-BR", {
+          style: "currency",
+          currency: "BRL",
+          maximumFractionDigits: 0
+        });
+      }
+
+      function calculateSimulation() {
+        const data = new FormData(simulatorForm);
+        const propertyValue = parseMoney(data.get("propertyValue"));
+        const income = parseMoney(data.get("income"));
+        const downPayment = parseMoney(data.get("downPayment"));
+        const annualRate = Number(data.get("annualRate")) || 0;
+        const years = Number(data.get("term")) || 35;
+        const months = years * 12;
+        const monthlyRate = Math.pow(1 + annualRate / 100, 1 / 12) - 1;
+        const maxInstallment = income * 0.3;
+        const requestedFinancing = Math.max(propertyValue - downPayment, 0);
+        const maxFinancingByIncome = maxInstallment / ((1 / months) + monthlyRate);
+        const financedValue = Math.max(Math.min(requestedFinancing, maxFinancingByIncome), 0);
+        const amortization = months > 0 ? financedValue / months : 0;
+        const firstPayment = amortization + financedValue * monthlyRate;
+        const lastPayment = amortization + amortization * monthlyRate;
+        const buyingPower = downPayment + maxFinancingByIncome;
+        const note = financedValue < requestedFinancing
+          ? "Pela regra de 30% da renda, talvez seja necessario aumentar a entrada, ajustar prazo ou consultar outra condicao."
+          : "A simulacao ficou dentro da base de comprometimento de renda usada no calculo.";
+
+        document.getElementById("buyingPower").textContent = formatMoney(buyingPower);
+        document.getElementById("financedValue").textContent = formatMoney(financedValue);
+        document.getElementById("firstPayment").textContent = formatMoney(firstPayment);
+        document.getElementById("lastPayment").textContent = formatMoney(lastPayment);
+        document.getElementById("simulationNote").textContent = note + " Os valores sao estimativos e precisam ser confirmados com o banco.";
+
+        const message = [
+          "Ola, Napoleao. Fiz uma simulacao de financiamento no site e quero uma analise mais precisa.",
+          "",
+          "Valor do imovel: " + formatMoney(propertyValue),
+          "Renda bruta mensal: " + formatMoney(income),
+          "Entrada + FGTS: " + formatMoney(downPayment),
+          "Taxa anual usada: " + annualRate.toFixed(2).replace(".", ",") + "%",
+          "Prazo: " + years + " anos",
+          "Valor financiado estimado: " + formatMoney(financedValue),
+          "Primeira parcela estimada: " + formatMoney(firstPayment),
+          "Ultima parcela estimada: " + formatMoney(lastPayment)
+        ].join("\n");
+
+        sendSimulation.href = "https://wa.me/5511948187023?text=" + encodeURIComponent(message);
+      }
+
+      termInput.addEventListener("input", function () {
+        termOutput.textContent = termInput.value;
+        calculateSimulation();
+      });
+
+      simulatorForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+        calculateSimulation();
+      });
+
+      simulatorForm.querySelectorAll("input").forEach(function (input) {
+        input.addEventListener("change", calculateSimulation);
+      });
+
+      calculateSimulation();
+
       document.getElementById("financeIntentForm").addEventListener("submit", function (event) {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
