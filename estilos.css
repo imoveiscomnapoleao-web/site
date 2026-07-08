@@ -433,6 +433,7 @@ h2 {
 }
 
 .property-card,
+.blog-grid .blog-card,
 .blog-grid article,
 .region-grid article,
 .testimonial-grid article {
@@ -614,6 +615,7 @@ h2 {
 }
 
 .property-body,
+.blog-grid .blog-card,
 .blog-grid article,
 .region-grid article,
 .testimonial-grid article {
@@ -651,6 +653,142 @@ h3 {
   margin-top: 8px;
   color: var(--navy-800);
   font-weight: 850;
+}
+
+.blog-grid .blog-card {
+  display: block;
+  color: inherit;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.blog-grid .blog-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(95, 181, 232, 0.55);
+  box-shadow: 0 24px 54px rgba(6, 23, 41, 0.12);
+}
+
+.article-page {
+  background: var(--ice);
+}
+
+.article-hero {
+  display: grid;
+  gap: 18px;
+  padding: clamp(84px, 10vw, 132px) clamp(18px, 4vw, 58px) clamp(44px, 6vw, 72px);
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(6, 23, 41, 0.88), rgba(6, 23, 41, 0.58)),
+    url("assets/capa-principal.jpeg") center / cover;
+}
+
+.article-hero h1 {
+  max-width: 980px;
+  margin: 0;
+  color: var(--white);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 6vw, 82px);
+  line-height: 0.98;
+}
+
+.article-hero p:not(.eyebrow) {
+  max-width: 760px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 20px;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-meta span {
+  padding: 9px 12px;
+  border: 1px solid rgba(191, 231, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.article-layout {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(36px, 6vw, 76px) clamp(18px, 4vw, 58px);
+}
+
+.article-content {
+  padding: clamp(28px, 5vw, 56px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 22px 56px rgba(6, 23, 41, 0.08);
+}
+
+.article-content p,
+.article-content li {
+  color: #43566b;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  margin-top: 42px;
+  color: var(--navy-950);
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+}
+
+.article-content ul {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 24px;
+  padding-left: 22px;
+}
+
+.article-faq {
+  margin-top: 48px;
+  padding-top: 8px;
+}
+
+.article-faq details {
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+
+.article-faq details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.article-faq summary {
+  cursor: pointer;
+  color: var(--navy-950);
+  font-size: 18px;
+  font-weight: 850;
+}
+
+.article-faq p {
+  margin-bottom: 0;
+}
+
+.article-cta {
+  margin-top: 44px;
+  padding: clamp(24px, 4vw, 36px);
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--navy-950), var(--navy-800));
+  color: var(--white);
+}
+
+.article-cta h2 {
+  color: var(--white);
+  font-size: clamp(30px, 4vw, 48px);
+}
+
+.article-cta p {
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .seller-section {
