@@ -96,6 +96,7 @@
             </div>
               <span id="resultCount">15 imóveis</span>
           </div>
+          <p class="price-filter-notice" id="priceFilterNotice" hidden></p>
 
           <div class="catalog-grid">
             <article class="catalog-card" data-region="santana" data-type="casa" data-profile="familia">
@@ -407,16 +408,42 @@
       const filters = ["regionFilter", "typeFilter", "profileFilter"].map((id) => document.getElementById(id));
       const cards = Array.from(document.querySelectorAll(".catalog-card"));
       const resultCount = document.getElementById("resultCount");
+      const priceFilterNotice = document.getElementById("priceFilterNotice");
+      const params = new URLSearchParams(window.location.search);
+      const maxPrice = Number(params.get("valorMax")) || 0;
+
+      function parseCardPrice(card) {
+        const priceText = Array.from(card.querySelectorAll("dd"))
+          .map((item) => item.textContent)
+          .find((text) => text.includes("R$"));
+
+        return priceText ? Number(priceText.replace(/\D/g, "")) || 0 : 0;
+      }
+
+      function formatMoney(value) {
+        return value.toLocaleString("pt-BR", {
+          style: "currency",
+          currency: "BRL",
+          maximumFractionDigits: 0
+        });
+      }
+
+      if (maxPrice > 0) {
+        priceFilterNotice.hidden = false;
+        priceFilterNotice.textContent = "Selecao baseada na simulacao: imoveis ate " + formatMoney(maxPrice) + ". Ajuste os filtros abaixo se quiser ampliar a busca.";
+      }
 
       function applyFilters() {
         const [region, type, profile] = filters.map((filter) => filter.value);
         let visible = 0;
 
         cards.forEach((card) => {
+          const cardPrice = parseCardPrice(card);
           const matches =
             (region === "todos" || card.dataset.region === region) &&
             (type === "todos" || card.dataset.type === type) &&
-            (profile === "todos" || card.dataset.profile === profile);
+            (profile === "todos" || card.dataset.profile === profile) &&
+            (maxPrice === 0 || (cardPrice > 0 && cardPrice <= maxPrice));
 
           card.hidden = !matches;
           if (matches) visible += 1;
@@ -426,6 +453,7 @@
       }
 
       filters.forEach((filter) => filter.addEventListener("change", applyFilters));
+      applyFilters();
     </script>
   </body>
 </html>

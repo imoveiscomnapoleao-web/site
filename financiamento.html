@@ -84,7 +84,7 @@
               <span><strong id="termOutput">35</strong> anos</span>
               <input type="range" name="term" min="3" max="35" value="35" />
             </label>
-            <button class="btn primary" type="submit">Simular agora</button>
+            <p class="auto-simulation-note">Resultado atualizado automaticamente enquanto voc&ecirc; preenche.</p>
           </form>
 
           <div class="simulator-result" id="simulatorResult" aria-live="polite">
@@ -120,7 +120,7 @@
             </p>
             <div class="simulator-actions">
               <a class="btn primary" id="sendSimulation" href="https://wa.me/5511948187023" target="_blank" rel="noreferrer">Enviar simula&ccedil;&atilde;o para consultor</a>
-              <a class="btn outline" href="catalogo.html">Buscar im&oacute;veis no cat&aacute;logo</a>
+              <a class="btn outline" id="catalogSearch" href="catalogo.html">Buscar im&oacute;veis no cat&aacute;logo</a>
             </div>
           </div>
         </div>
@@ -199,6 +199,7 @@
       const termInput = simulatorForm.querySelector('[name="term"]');
       const termOutput = document.getElementById("termOutput");
       const sendSimulation = document.getElementById("sendSimulation");
+      const catalogSearch = document.getElementById("catalogSearch");
 
       function parseMoney(value) {
         return Number(String(value || "").replace(/\D/g, "")) || 0;
@@ -260,6 +261,8 @@
         ].join("\n");
 
         sendSimulation.href = "https://wa.me/5511948187023?text=" + encodeURIComponent(message);
+        const catalogLimit = Math.ceil(buyingPower / 10000) * 10000;
+        catalogSearch.href = "catalogo.html?valorMax=" + encodeURIComponent(catalogLimit);
       }
 
       termInput.addEventListener("input", function () {
